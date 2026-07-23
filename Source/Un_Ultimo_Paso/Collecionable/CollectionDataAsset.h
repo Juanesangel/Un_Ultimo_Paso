@@ -6,8 +6,8 @@
 
 class UTexture2D;
 
-UCLASS(BlueprintType)
-class UN_ULTIMO_PASO_API UCollectionDataAsset : public UPrimaryDataAsset
+UCLASS(BlueprintType, Blueprintable)
+class UN_ULTIMO_PASO_API UCollectionDataAsset : public UDataAsset
 {
     GENERATED_BODY()
 
