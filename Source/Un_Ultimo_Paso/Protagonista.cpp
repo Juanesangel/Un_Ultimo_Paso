@@ -5,6 +5,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Logica_coleccion_component.h"
 
 // Sets default values
 AProtagonista::AProtagonista()
@@ -16,7 +17,7 @@ AProtagonista::AProtagonista()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->TargetArmLength = 400.f;
-	SpringArm->bUsePawnControlRotation = true;
+	SpringArm->bUsePawnControlRotation = false;
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
@@ -33,6 +34,9 @@ AProtagonista::AProtagonista()
 	PushDetector->SetRelativeLocation(FVector(60.f, 0.f, 0.f));
 	PushDetector->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	PushDetector->SetCollisionProfileName(TEXT("OverlapAllDynamic"));
+
+	// --- Sistema de colisiones---
+	CollectionComponent = CreateDefaultSubobject<ULogica_coleccion_component>(TEXT("CollectionComponent"));
 }
 
 // Called when the game starts or when spawned
@@ -76,10 +80,9 @@ void AProtagonista::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	if (UEnhancedInputComponent* EnhancedInput = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		if (IA_Move)
+		{
 			EnhancedInput->BindAction(IA_Move, ETriggerEvent::Triggered, this, &AProtagonista::OnMove);
-
-		if (IA_Look)
-			EnhancedInput->BindAction(IA_Look, ETriggerEvent::Triggered, this, &AProtagonista::OnLook);
+		}
 
 		if (IA_Jump)
 		{
@@ -111,14 +114,6 @@ void AProtagonista::OnMove(const FInputActionValue& Value)
 		AddMovementInput(ForwardDir, MoveInput.Y);
 		AddMovementInput(RightDir, MoveInput.X);
 	}
-}
-
-void AProtagonista::OnLook(const FInputActionValue& Value)
-{
-	const FVector2D LookInput = Value.Get<FVector2D>();
-
-	AddControllerYawInput(LookInput.X);
-	AddControllerPitchInput(LookInput.Y);
 }
 
 void AProtagonista::OnEmpujarStarted(const FInputActionValue& Value)
