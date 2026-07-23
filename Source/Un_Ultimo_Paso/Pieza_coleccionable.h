@@ -36,6 +36,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collectible")
 	int32 PieceIndex = 0;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collectible")
+	int32 TotalPieces = 0;
+
 	// Evita recoger dos veces
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collectible")
 	bool bCollected = false;
@@ -59,5 +62,10 @@ public:
 	FORCEINLINE int32 GetPieceIndex() const
 	{
 		return PieceIndex;
+	}
+
+	FORCEINLINE int32 GetTotalPieces() const
+	{
+		return TotalPieces;
 	}
 };
