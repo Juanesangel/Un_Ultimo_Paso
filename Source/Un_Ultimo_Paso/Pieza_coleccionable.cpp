@@ -4,6 +4,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "UObject/NameTypes.h"
 #include "Protagonista.h"
+#include "Logica_coleccion_component.h"
 
 APieza_coleccionable::APieza_coleccionable()
 {
@@ -61,11 +62,14 @@ void APieza_coleccionable::OnSphereOverlap(
 
 	bCollected = true;
 
-	UE_LOG(LogTemp, Warning,
-		TEXT("Collecion: %s / Pieza: %d"),
-		*LexToString(CollectionID),
-		PieceIndex
-		);
+	if (ULogica_coleccion_component* CollectionComponent =
+		Protagonista->GetCollectionComponent())
+	{
+		CollectionComponent->CollectPiece(
+			CollectionID,
+			PieceIndex,
+			TotalPieces);
+	}
 
 	Destroy();
 }
