@@ -138,3 +138,12 @@ int32 ULogica_coleccion_component::GetTotalPieces(FName CollectionID) const
 	return Collection->TotalPieces;
 }
 
+TArray<bool> ULogica_coleccion_component::GetCollectedPiecesArray(FName CollectionID) const
+{
+    const FCollectionData* Collection = Collections.Find(CollectionID);
+    if (!Collection)
+    {
+        return TArray<bool>();
+    }
+    return Collection->CollectedPieces;
+}
