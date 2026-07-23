@@ -55,6 +55,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	int32 GetTotalPieces(FName CollectionID) const;
 
+    // Obtener el array completo de piezas recogidas (para inicializar la UI)
+    UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Colecciones")
+    TArray<bool> GetCollectedPiecesArray(FName CollectionID) const;
+
 public:
 
 	UPROPERTY(BlueprintAssignable)
