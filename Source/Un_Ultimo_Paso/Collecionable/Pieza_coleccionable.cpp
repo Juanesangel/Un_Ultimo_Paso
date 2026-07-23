@@ -3,7 +3,7 @@
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "UObject/NameTypes.h"
-#include "Protagonista.h"
+#include "Un_Ultimo_Paso/Protagonista/Protagonista.h"
 #include "Logica_coleccion_component.h"
 
 APieza_coleccionable::APieza_coleccionable()

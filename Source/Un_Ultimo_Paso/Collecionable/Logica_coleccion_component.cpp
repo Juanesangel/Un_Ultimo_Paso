@@ -54,8 +54,23 @@ void ULogica_coleccion_component::CollectPiece(
 	// Marcar como recogida
 	Collection.CollectedPieces[PieceIndex] = true;
 
+
+    int32 CollectedCount = 0;
+
+    for (bool bCollected : Collection.CollectedPieces)
+    {
+        if (bCollected)
+        {
+            CollectedCount++;
+        }
+    }
 	// Avisar a la UI
-	OnPieceCollected.Broadcast(CollectionID, PieceIndex);
+    OnPieceCollected.Broadcast(
+        CollectionID,
+        PieceIndex,
+        CollectedCount,
+        Collection.TotalPieces
+    );
 
 	// ¿Está completa?
 	bool bComplete = true;

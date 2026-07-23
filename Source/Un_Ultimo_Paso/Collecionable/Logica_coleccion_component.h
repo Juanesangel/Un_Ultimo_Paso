@@ -6,12 +6,13 @@
 #include "Logica_coleccion_component.generated.h"
 
 // Evento cuando se recoge una pieza
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(
-	FOnPieceCollected,
-	FName,
-	CollectionID,
-	int32,
-	PieceIndex);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(
+    FOnPieceCollected,
+    FName, CollectionID,
+    int32, PieceIndex,
+    int32, CollectedPieces,
+    int32, TotalPieces
+);
 
 // Evento cuando una colección se completa
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(

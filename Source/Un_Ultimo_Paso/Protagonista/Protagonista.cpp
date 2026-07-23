@@ -5,7 +5,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
-#include "Logica_coleccion_component.h"
+#include "Components/CapsuleComponent.h"
+#include "Engine/EngineTypes.h"
+#include "Un_Ultimo_Paso/Collecionable/Logica_coleccion_component.h"
 
 // Sets default values
 AProtagonista::AProtagonista()
@@ -19,21 +21,22 @@ AProtagonista::AProtagonista()
 	SpringArm->TargetArmLength = 400.f;
 	SpringArm->bUsePawnControlRotation = false;
 
-	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
-	Camera->bUsePawnControlRotation = false;
-
-	bUseControllerRotationYaw = false;
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
-
-	// --- Push detector ---
-	PushDetector = CreateDefaultSubobject<UBoxComponent>(TEXT("PushDetector"));
-	PushDetector->SetupAttachment(RootComponent);
-	PushDetector->SetBoxExtent(FVector(50.f, 50.f, 50.f));
-	PushDetector->SetRelativeLocation(FVector(60.f, 0.f, 0.f));
-	PushDetector->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	PushDetector->SetCollisionProfileName(TEXT("OverlapAllDynamic"));
+    SpringArm->SetUsingAbsoluteRotation(true);
+    SpringArm->SetRelativeRotation(FRotator(-45.f, 0.f, 0.f)); // ajusta el ángulo que quieras
+    SpringArm->bInheritPitch = false;
+    SpringArm->bInheritYaw = false;
+    SpringArm->bInheritRoll = false;
+        
+    // --- Push detector ---
+    PushDetector = CreateDefaultSubobject<UBoxComponent>(TEXT("PushDetector"));
+    PushDetector->SetupAttachment(RootComponent);
+    PushDetector->SetBoxExtent(FVector(50.f, 50.f, 50.f));
+    PushDetector->SetRelativeLocation(FVector(60.f, 0.f, 0.f));
+    PushDetector->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+    PushDetector->SetCollisionObjectType(ECC_WorldDynamic);
+    PushDetector->SetCollisionResponseToAllChannels(ECR_Ignore);
+    PushDetector->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Overlap);
+    GetCapsuleComponent()->SetCollisionResponseToChannel(ECC_GameTraceChannel1, ECR_Overlap);
 
 	// --- Sistema de colisiones---
 	CollectionComponent = CreateDefaultSubobject<ULogica_coleccion_component>(TEXT("CollectionComponent"));
