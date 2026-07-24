@@ -25,6 +25,7 @@ void ULogica_coleccion_component::CollectPiece(
 	int32 PieceIndex,
 	int32 TotalPieces)
 {
+    UE_LOG(LogTemp, Warning, TEXT("CollectPiece llamada"));
 	// Si la colección no existe, la creamos
 	if (!Collections.Contains(CollectionID))
 	{
@@ -64,6 +65,7 @@ void ULogica_coleccion_component::CollectPiece(
             CollectedCount++;
         }
     }
+    UE_LOG(LogTemp, Warning, TEXT("Broadcast Piece"));
 	// Avisar a la UI
     OnPieceCollected.Broadcast(
         CollectionID,
@@ -83,11 +85,10 @@ void ULogica_coleccion_component::CollectPiece(
 			break;
 		}
 	}
-
 	if (bComplete)
 	{
 		Collection.bCompleted = true;
-
+        UE_LOG(LogTemp, Warning, TEXT("Broadcast Complete"));
 		OnCollectionCompleted.Broadcast(CollectionID);
 	}
 }
