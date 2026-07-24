@@ -22,8 +22,12 @@
 			]
 		},
 		{
-			"Name": "Volumetrics",
-			"Enabled": true
+			"Name": "WwiseMotionOpenXRHelpers",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
 		}
 	]
 }

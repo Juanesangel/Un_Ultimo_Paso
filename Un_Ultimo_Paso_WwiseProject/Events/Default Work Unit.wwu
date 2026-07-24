@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="AX" ID="{86B28648-D42E-4094-A470-D6BB5FEF22EE}">
+					<ChildrenList>
+						<Action Name="" ID="{29823FA8-08BA-47E8-83CB-CF27E6BA5C4D}" ShortID="605877567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wind (1)" ID="{0FB13723-99E0-4018-BE28-915990C7596E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
