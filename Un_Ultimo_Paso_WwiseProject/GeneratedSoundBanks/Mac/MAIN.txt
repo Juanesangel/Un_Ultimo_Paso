@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1886858530	AX			\Default Work Unit\AX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	356258824	wind (1)	.cache\C7\{C72A75B9-ECFC-6391-9B56-0306DBD7CD77}.wem		\Containers\Default Work Unit\ACTOR MIXER\wind (1)		29853920
+
