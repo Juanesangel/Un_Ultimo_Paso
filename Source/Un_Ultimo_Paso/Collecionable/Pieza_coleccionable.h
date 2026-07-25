@@ -4,7 +4,7 @@
 #include "GameFramework/Actor.h"
 #include "Pieza_coleccionable.generated.h"
 
-class USphereComponent;
+class UBoxComponent;
 class UStaticMeshComponent;
 
 UCLASS()
@@ -26,7 +26,7 @@ protected:
 
 	// Colisión para recoger el objeto
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collectible")
-	TObjectPtr<USphereComponent> Collision;
+    TObjectPtr<UBoxComponent> Collision;
 
 	// Nombre de la colección
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Collectible")
