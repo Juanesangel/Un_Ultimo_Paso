@@ -1,6 +1,6 @@
 #include "Pieza_coleccionable.h"
 
-#include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "UObject/NameTypes.h"
 #include "Un_Ultimo_Paso/Protagonista/Protagonista.h"
@@ -11,10 +11,10 @@ APieza_coleccionable::APieza_coleccionable()
 	PrimaryActorTick.bCanEverTick = false;
 
 	// Sphere Collision
-	Collision = CreateDefaultSubobject<USphereComponent>(TEXT("Collision"));
+	Collision = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision"));
 	SetRootComponent(Collision);
 
-	Collision->SetSphereRadius(70.f);
+    Collision->SetBoxExtent(FVector(70.f, 70.f, 70.f));
 
 	Collision->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
