@@ -18,7 +18,7 @@
      {
       "Id": "4048554823",
       "Name": "Post_Event_axmenu",
-      "ObjectPath": "\\Events\\Default Work Unit\\Post_Event_axmenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENU\\Post_Event_axmenu",
       "GUID": "{7F7C50ED-F8C6-4755-9753-921484C25F03}",
       "Color": "26",
       "MaxAttenuation": "0",
@@ -29,6 +29,6 @@
     ]
    }
   ],
-  "FileHash": "{90EC4A73-F4E0-28FF-E08C-0BBF7989558A}"
+  "FileHash": "{5867F8A3-AFB1-98EC-5563-9FEF352B9259}"
  }
 }

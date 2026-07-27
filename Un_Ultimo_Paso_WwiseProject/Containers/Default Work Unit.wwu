@@ -230,6 +230,754 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="AMBIENCE INTRO" ID="{EEB373B0-5093-4485-B1A8-4C4FA000327E}" ShortID="51483746">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMBIENCE INTRO" ID="{E07265FF-FF39-437A-B3BD-D365BF3CFD65}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.04561"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.28421"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMBIENCE INTRO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836516116"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMBIENCE INTRO" ID="{E07265FF-FF39-437A-B3BD-D365BF3CFD65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Folder Name="creack house" ID="{4C828BD5-A033-4AD4-8E3F-C940A884B8D8}" ShortID="958663013">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="WOODCREACK" ID="{39C901E4-A08D-4A62-B6A7-3A65D9A27B6F}" ShortID="573904771">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>6.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoopCount" Type="int32" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="madera 1" ID="{7F45AA2B-A603-4F83-8F55-4C7657FBC1E3}" WorkUnitID="{4B618437-4858-4C71-84AE-AF2DED702020}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WOOD CREACK 1" ID="{8C3424C4-44B6-47FB-B8C6-D6CF9B4C6C29}" ShortID="753762711">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WOOD CREACK 1" ID="{82AF695F-E328-404E-A69C-197C812AE418}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.10433"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.11942"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.43994"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WOOD CREACK 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="218572243"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WOOD CREACK 1" ID="{82AF695F-E328-404E-A69C-197C812AE418}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WOOD CREACK 1_01" ID="{B7F64016-D31F-48EB-BBFC-4512F3625BA4}" ShortID="505542617">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WOOD CREACK 1" ID="{7371B219-680D-49D3-BA3C-53CA8BA1DF5D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.15649"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.28337"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.53664"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.18511"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WOOD CREACK 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="676325588"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WOOD CREACK 1" ID="{7371B219-680D-49D3-BA3C-53CA8BA1DF5D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WOOD CREACK 1_02" ID="{DD3F734C-19DB-49A6-804C-FD0D5BBE9326}" ShortID="659877967">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WOOD CREACK 1" ID="{F8D610EA-CA81-414A-A8D1-DFA475ECB042}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.15649"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.28337"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.39372"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.32422"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WOOD CREACK 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="457725493"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WOOD CREACK 1" ID="{F8D610EA-CA81-414A-A8D1-DFA475ECB042}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WOOD CREACK 1_03" ID="{DA993EB7-F58C-473D-8C8C-4EDC271B2842}" ShortID="416613983">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WOOD CREACK 1" ID="{7BF397D6-13D2-4E0A-B035-5CE4F862C76B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.15649"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.28337"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.28681"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.58396"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WOOD CREACK 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="880691389"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WOOD CREACK 1" ID="{7BF397D6-13D2-4E0A-B035-5CE4F862C76B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WOOD CREACK 1_04" ID="{33274F4F-2A70-4B9A-B77C-6F7EB8FAB425}" ShortID="971386342">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WOOD CREACK 1" ID="{C011B23D-EB0B-4B5C-AA5E-1430EA0C7320}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.15649"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.28337"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.66579"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.02993"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WOOD CREACK 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865195843"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WOOD CREACK 1" ID="{C011B23D-EB0B-4B5C-AA5E-1430EA0C7320}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<RandomSequenceContainer Name="WOODFOTSTEPS" ID="{9CE978BF-D26F-4AA3-9FA6-83CCF1757AC7}" ShortID="163961563">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E2BC3E38-BBCE-4843-9982-E4885AC7DD2D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="madera 1" ID="{7F45AA2B-A603-4F83-8F55-4C7657FBC1E3}" WorkUnitID="{4B618437-4858-4C71-84AE-AF2DED702020}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WOOD FOOTSTEPS" ID="{A57F0445-7E6A-4D03-8CE1-9EB45957E0EC}" ShortID="925824701">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{F27C94DF-0496-495F-A854-D281F7A6F04B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.57094"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287083828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{F27C94DF-0496-495F-A854-D281F7A6F04B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOOD FOOTSTEPS_01" ID="{0C2B5999-717A-49E8-B715-59B748AACA96}" ShortID="336659696">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{15159CE8-811C-41A5-9D26-1AD53E1B6892}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.83848"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.65918"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385976428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{15159CE8-811C-41A5-9D26-1AD53E1B6892}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOOD FOOTSTEPS_02" ID="{43262D70-6901-41E9-9EC7-C4CD72A00B33}" ShortID="280586976">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{2AA7A340-C0DA-4651-9C67-BF18715CD55B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.62344"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.30142"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1071192940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{2AA7A340-C0DA-4651-9C67-BF18715CD55B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOOD FOOTSTEPS_03" ID="{7D415FFB-5212-4703-AB61-84BD80FFBA26}" ShortID="365602828">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{F5C5FB48-1BC6-4B12-B5B6-7DE63BB88B1C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.4084"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.1399"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834949728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{F5C5FB48-1BC6-4B12-B5B6-7DE63BB88B1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOOD FOOTSTEPS_04" ID="{C2F25F4B-FD5A-4136-9D9A-762343F370FA}" ShortID="734382964">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{1C32A050-815C-47ED-9046-FE85AA60C2D4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.122"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.74646"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="906532879"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{1C32A050-815C-47ED-9046-FE85AA60C2D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WOOD FOOTSTEPS_05" ID="{1BD418FE-38CA-4D08-815F-498FF33B52DB}" ShortID="934075760">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WOOD FOOTSTEPS" ID="{4CF5B3D0-F5E3-4558-B219-A26E356870C2}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19624"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0892"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.90696"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.44222"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WOOD FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866440829"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WOOD FOOTSTEPS" ID="{4CF5B3D0-F5E3-4558-B219-A26E356870C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FOREST FOOTSTEPS" ID="{2BFC39E9-59CC-4185-8FF7-3C2A48B702E8}" ShortID="657374577">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6D6ADBD-1D36-458F-BDF9-7EFFB1C5A06E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="350"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOREST FOOTSTEPS" ID="{BECCE94C-EBF8-464D-BE5D-00044543DC78}" ShortID="127165877">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOREST FOOTSTEPS" ID="{113BBC59-483A-4274-A8D4-5E6EF39C9C99}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.16056"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.1784"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.21408"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.83857"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOREST FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124463047"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOREST FOOTSTEPS" ID="{113BBC59-483A-4274-A8D4-5E6EF39C9C99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOREST FOOTSTEPS_01" ID="{FDC1589F-6987-4B7A-BF46-E3DE7B1857C3}" ShortID="283094917">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOREST FOOTSTEPS" ID="{EE58F566-2750-4E90-9775-5E7CF56A6012}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.16056"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.1784"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.23096"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.03385"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOREST FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017975414"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOREST FOOTSTEPS" ID="{EE58F566-2750-4E90-9775-5E7CF56A6012}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOREST FOOTSTEPS_02" ID="{D5A4E5B3-0559-49FF-A463-8B1EE89AE992}" ShortID="179702429">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOREST FOOTSTEPS" ID="{BEEC2351-7BC0-498A-B5ED-5EBB4269D40A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.16056"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.1784"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.03376"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.72961"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOREST FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="444983305"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOREST FOOTSTEPS" ID="{BEEC2351-7BC0-498A-B5ED-5EBB4269D40A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOREST FOOTSTEPS_03" ID="{19F23AE8-AE8C-490F-AE3D-10C6AD2D4C7D}" ShortID="852121623">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOREST FOOTSTEPS" ID="{DEC016D8-AB3C-4BFE-AF3E-412C46BCB3FF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.16056"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.1784"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.74736"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.55025"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOREST FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136507884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOREST FOOTSTEPS" ID="{DEC016D8-AB3C-4BFE-AF3E-412C46BCB3FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOREST FOOTSTEPS_04" ID="{CB1F045F-3AF0-405F-B462-B3CBE25DFF8F}" ShortID="241484988">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOREST FOOTSTEPS" ID="{2362099D-677A-4A08-8DD1-BB99C9AA50C1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.16056"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.1784"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.12104"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.01313"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOREST FOOTSTEPS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="494515281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOREST FOOTSTEPS" ID="{2362099D-677A-4A08-8DD1-BB99C9AA50C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</PropertyContainer>
 			</ChildrenList>
