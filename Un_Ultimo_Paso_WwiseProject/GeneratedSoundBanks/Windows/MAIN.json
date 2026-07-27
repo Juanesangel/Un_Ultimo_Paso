@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{0BDF6F1C-71F1-C267-FE17-E9BAC0552DF2}",
+    "Hash": "{FAB09A30-381D-397F-FEB4-DEF3D1FD63C8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -235,8 +235,8 @@
       "Color": "13",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "171.7208",
-      "DurationMax": "171.7208",
+      "DurationMin": "181.2208",
+      "DurationMax": "181.2208",
       "MediaRefs": [
        {
         "Id": "218572243"
@@ -313,6 +313,71 @@
       ]
      },
      {
+      "Id": "3854155799",
+      "Name": "Play_FOOTSTEPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FOOTSTEPS",
+      "GUID": "{5E9EB099-B0A4-4383-B62E-5E98FA2CF5A1}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45009825",
+      "DurationMax": "1.123963",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2058049674",
+         "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "287083828"
+         },
+         {
+          "Id": "385976428"
+         },
+         {
+          "Id": "834949728"
+         },
+         {
+          "Id": "866440829"
+         },
+         {
+          "Id": "906532879"
+         },
+         {
+          "Id": "1071192940"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{A1867FE2-0427-42E2-9A53-38EA7E6143C3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "124463047"
+         },
+         {
+          "Id": "136507884"
+         },
+         {
+          "Id": "444983305"
+         },
+         {
+          "Id": "494515281"
+         },
+         {
+          "Id": "1017975414"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "646981407",
       "Name": "woodFOOTSTEPS",
       "ObjectPath": "\\Events\\Default Work Unit\\woodFOOTSTEPS",
@@ -342,9 +407,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "FOOTSTEPS",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS",
+      "GUID": "{B93F63D8-4B61-405D-8D7F-739529C44967}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "WOOD",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\WOOD",
+        "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "GRASS",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\GRASS",
+        "GUID": "{A1867FE2-0427-42E2-9A53-38EA7E6143C3}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{9982175A-35F4-F817-EA92-1CE5C16A3BE2}"
+  "FileHash": "{BA90ABBE-2A6A-A6FC-97B3-3A587F998109}"
  }
 }
