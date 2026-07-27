@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{1B606023-F616-32EE-47FE-9DF992A0073F}",
+    "Hash": "{0F7E3986-9EF3-C92C-2B91-EE09248EC4A8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -21,27 +21,94 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wind (1).wav",
-      "CachePath": "C7/{C72A75B9-ECFC-6391-9B56-0306DBD7CD77}.wem"
+      "CachePath": "13/{1301E708-80A4-728E-3D53-624AF43870E6}.wem"
+     },
+     {
+      "Id": "641209218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST AMBIENCE 1.wav",
+      "CachePath": "48/{4834A982-AC91-0E72-B2FF-15C71619F0B4}.wem"
+     },
+     {
+      "Id": "855103482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Piano y Violín Íntimos).wav",
+      "CachePath": "EC/{ECD95E6D-C986-4DBA-6C0F-7A72822C007A}.wem"
+     },
+     {
+      "Id": "858860063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PLAY GAME.wav",
+      "CachePath": "94/{9465AF52-495E-B74A-793E-2B5EDF3B97FC}.wem"
+     },
+     {
+      "Id": "980950721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GAME MENU.wav",
+      "CachePath": "4E/{4E0CC601-BC49-69D3-52B3-DB6DDA94E152}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1886858530",
-      "Name": "AX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AX",
+      "Id": "3321559715",
+      "Name": "axmenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\axmenu",
       "GUID": "{86B28648-D42E-4094-A470-D6BB5FEF22EE}",
-      "DurationType": "OneShot",
-      "DurationMin": "155.48866",
-      "DurationMax": "155.48866",
+      "Color": "26",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "356258824"
+       },
+       {
+        "Id": "641209218"
+       },
+       {
+        "Id": "855103482"
+       }
+      ]
+     },
+     {
+      "Id": "2364697178",
+      "Name": "MENUOPTIONS",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENUOPTIONS",
+      "GUID": "{DA6CDC5A-2A73-4668-A419-BF00242E4192}",
+      "Color": "26",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33396474",
+      "DurationMax": "0.60371286",
+      "MediaRefs": [
+       {
+        "Id": "980950721"
+       }
+      ]
+     },
+     {
+      "Id": "3518117542",
+      "Name": "MENUPLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENUPLAY",
+      "GUID": "{AE956493-26DA-46E3-A5BB-6FD01D055CB6}",
+      "Color": "26",
+      "DurationType": "OneShot",
+      "DurationMin": "1.75175",
+      "DurationMax": "1.75175",
+      "MediaRefs": [
+       {
+        "Id": "858860063"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{E92BD330-DFC2-A6B3-1035-EF22C7347B22}"
+  "FileHash": "{E5477055-47A1-8F2F-F08E-22104A8C9E53}"
  }
 }

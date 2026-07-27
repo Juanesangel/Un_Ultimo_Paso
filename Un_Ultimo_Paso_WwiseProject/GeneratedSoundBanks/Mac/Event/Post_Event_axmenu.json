@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4048554823",
+    "Type": "Event",
+    "GUID": "{7F7C50ED-F8C6-4755-9753-921484C25F03}",
+    "Language": "SFX",
+    "Hash": "{2B70A14E-FB9E-A69A-3C2E-6C6B901B65D0}",
+    "ObjectPath": "Post_Event_axmenu",
+    "ShortName": "Post_Event_axmenu",
+    "Path": "Event/Post_Event_axmenu.bnk",
+    "Events": [
+     {
+      "Id": "4048554823",
+      "Name": "Post_Event_axmenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Post_Event_axmenu",
+      "GUID": "{7F7C50ED-F8C6-4755-9753-921484C25F03}",
+      "Color": "26",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{90EC4A73-F4E0-28FF-E08C-0BBF7989558A}"
+ }
+}
