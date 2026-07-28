@@ -31,6 +31,12 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
+											<XPos>48.78745</XPos>
+											<YPos>-4.4149</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
 											<XPos>100</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
@@ -58,8 +64,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>46.55415</XPos>
-											<YPos>26</YPos>
+											<XPos>45.14768</XPos>
+											<YPos>20</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>

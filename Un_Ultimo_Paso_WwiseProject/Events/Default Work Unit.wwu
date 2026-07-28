@@ -168,6 +168,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LAKE" ID="{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{7500C506-D308-4A70-9C9A-2C7C4D3884CA}" ShortID="136950620">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="102809__juskiddink__lake-shore-waves-from-boat-wake" ID="{9FB2168D-A2B4-43B4-B027-0E254C9D653E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6CE0CE39-4BC5-4593-BBE4-FB607D8C68E9}" ShortID="904927573">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LAGO" ID="{F6F5C2D0-2DBC-4B29-92EA-227EF54D2F2D}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

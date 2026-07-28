@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{FAB09A30-381D-397F-FEB4-DEF3D1FD63C8}",
+    "Hash": "{BF826E37-81C3-11A1-7844-D005AF0537DA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
     "Media": [
+     {
+      "Id": "116093978",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PASOS AGUA.wav",
+      "CachePath": "72/{725A94E1-8073-3F59-BBBD-D9B1AD372F0D}.wem"
+     },
      {
       "Id": "124463047",
       "Language": "SFX",
@@ -38,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "WOOD CREACK 1.wav",
       "CachePath": "C0/{C0766ED4-118B-3ABC-02B5-FE75B62B5D0A}.wem"
+     },
+     {
+      "Id": "282743666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PASOS AGUA.wav",
+      "CachePath": "4F/{4F7AD393-4A66-BB22-6D53-DB9C5B6732A9}.wem"
      },
      {
       "Id": "287083828",
@@ -104,6 +120,14 @@
       "CachePath": "81/{81950638-03F7-AA93-19FD-FBB3607E5E60}.wem"
      },
      {
+      "Id": "732420709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PASOS AGUA.wav",
+      "CachePath": "15/{153D2A00-D299-FC63-AB1D-C0F662423129}.wem"
+     },
+     {
       "Id": "834949728",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,6 +142,14 @@
       "Location": "Memory",
       "ShortName": "AMBIENCE INTRO.wav",
       "CachePath": "FF/{FF3C985B-5856-DA12-BAA1-A5957F45C37D}.wem"
+     },
+     {
+      "Id": "850759828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PASOS AGUA.wav",
+      "CachePath": "86/{86510A71-A768-3A6B-6C3F-A5EE06360A99}.wem"
      },
      {
       "Id": "855103482",
@@ -166,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "WOOD FOOTSTEPS.wav",
       "CachePath": "FD/{FDE0FBCE-2802-2B48-82A7-B03EA7E860DA}.wem"
+     },
+     {
+      "Id": "979638804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PASOS AGUA.wav",
+      "CachePath": "BC/{BC99A62E-5B15-DD44-F5E5-536D4F49C688}.wem"
      },
      {
       "Id": "980950721",
@@ -320,8 +360,33 @@
       "Color": "4",
       "DurationType": "OneShot",
       "DurationMin": "0.45009825",
-      "DurationMax": "1.123963",
+      "DurationMax": "2.0495253",
       "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2654748154",
+         "GUID": "{641DCF1E-F615-4489-8C02-2FD7CD66FD88}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "116093978"
+         },
+         {
+          "Id": "282743666"
+         },
+         {
+          "Id": "732420709"
+         },
+         {
+          "Id": "850759828"
+         },
+         {
+          "Id": "979638804"
+         }
+        ]
+       },
        {
         "SwitchValue": {
          "GroupType": "Switch",
@@ -422,6 +487,12 @@
         "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
        },
        {
+        "Id": "2654748154",
+        "Name": "WATER",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\WATER",
+        "GUID": "{641DCF1E-F615-4489-8C02-2FD7CD66FD88}"
+       },
+       {
         "Id": "4248645337",
         "Name": "GRASS",
         "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\GRASS",
@@ -432,6 +503,6 @@
     ]
    }
   ],
-  "FileHash": "{BA90ABBE-2A6A-A6FC-97B3-3A587F998109}"
+  "FileHash": "{77D4FD0C-484D-6D11-BA5E-B7F1D8F261BB}"
  }
 }
