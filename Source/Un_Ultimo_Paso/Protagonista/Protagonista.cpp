@@ -26,6 +26,14 @@ AProtagonista::AProtagonista()
     SpringArm->bInheritPitch = false;
     SpringArm->bInheritYaw = false;
     SpringArm->bInheritRoll = false;
+
+    // --- Rotación orientada al movimiento ---
+    bUseControllerRotationYaw = false;
+    bUseControllerRotationPitch = false;
+    bUseControllerRotationRoll = false;
+
+    GetCharacterMovement()->bOrientRotationToMovement = true;
+    GetCharacterMovement()->RotationRate = FRotator(0.f, 260.f, 0.f);
         
     // --- Push detector ---
     PushDetector = CreateDefaultSubobject<UBoxComponent>(TEXT("PushDetector"));
