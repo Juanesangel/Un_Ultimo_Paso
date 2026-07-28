@@ -3,12 +3,166 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="AX" ID="{86B28648-D42E-4094-A470-D6BB5FEF22EE}">
+				<Folder Name="MENU" ID="{484B28DD-11D1-4E33-8F80-32401883ED13}" ShortID="945669989">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{29823FA8-08BA-47E8-83CB-CF27E6BA5C4D}" ShortID="605877567">
+						<Event Name="axmenu" ID="{86B28648-D42E-4094-A470-D6BB5FEF22EE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{29823FA8-08BA-47E8-83CB-CF27E6BA5C4D}" ShortID="605877567">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wind (1)" ID="{0FB13723-99E0-4018-BE28-915990C7596E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C0849D4-CCC4-4521-868E-25445DABC5F5}" ShortID="322199030">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bruma de Catedrales (Piano y Violín Íntimos)" ID="{BAA44FD6-3635-43D7-AA91-E4FBF7FE126F}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3BDBF17E-64B6-4511-99C3-BC9B288A9E58}" ShortID="441823891">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOREST AMBIENCE 1" ID="{0964A28B-449F-4A1D-AE95-A1A63FD979E6}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MENUOPTIONS" ID="{DA6CDC5A-2A73-4668-A419-BF00242E4192}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{3731FF4B-7442-44A8-A5DA-F6814C6390AD}" ShortID="950162405">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAME MENU" ID="{46408CB7-CA70-4127-936B-8227CE9FA6E1}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MENUPLAY" ID="{AE956493-26DA-46E3-A5BB-6FD01D055CB6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{65727770-9A00-468C-8742-74B269042134}" ShortID="962646000">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PLAY GAME" ID="{AFD2C757-671B-4EB9-9AB1-86F810965AEC}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Post_Event_axmenu" ID="{7F7C50ED-F8C6-4755-9753-921484C25F03}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{78A1D68B-DC12-43E1-B98B-04DD2CFC9A68}" ShortID="826665263">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="creackwood" ID="{9DFD880F-8D1E-438D-A4AB-DA4E75F26009}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="LimitScope" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D2C12BB9-2B8B-4C0B-A40A-8D455331E84D}" ShortID="793969263">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wind (1)" ID="{0FB13723-99E0-4018-BE28-915990C7596E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+									<ObjectRef Name="WOODCREACK" ID="{39C901E4-A08D-4A62-B6A7-3A65D9A27B6F}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AXINTRO" ID="{485EB888-E2B5-4B44-8D73-33A117F7A9A9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{70BED28F-6FB2-4D65-B0F0-FBFF26E1D8E5}" ShortID="601320454">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE INTRO" ID="{EEB373B0-5093-4485-B1A8-4C4FA000327E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="woodFOOTSTEPS" ID="{ECC441F7-E872-4DC9-8443-D696D1B2E278}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B50E1806-F8E6-44A8-A40E-EE7ADDCD8381}" ShortID="379613736">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WOODFOTSTEPS" ID="{9CE978BF-D26F-4AA3-9FA6-83CCF1757AC7}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FORESTFOOTSTEPS" ID="{68FA18F0-5548-4E3F-BF4B-49E836EB0FE2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{0DBB26B7-5225-47F6-B03D-9331A20B01A3}" ShortID="1030205905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOREST FOOTSTEPS" ID="{2BFC39E9-59CC-4185-8FF7-3C2A48B702E8}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FOOTSTEPS" ID="{5E9EB099-B0A4-4383-B62E-5E98FA2CF5A1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{0F55CA7F-2675-48C1-BC99-BD6BD53323AB}" ShortID="720729503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEPS" ID="{2894E6CC-F381-4BAC-AF2B-49D46A877615}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

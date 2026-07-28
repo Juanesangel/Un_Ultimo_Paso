@@ -10,38 +10,428 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{1B606023-F616-32EE-47FE-9DF992A0073F}",
+    "Hash": "{FAB09A30-381D-397F-FEB4-DEF3D1FD63C8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
     "Media": [
+     {
+      "Id": "124463047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST FOOTSTEPS.wav",
+      "CachePath": "C0/{C0644FFE-6619-D059-CA5D-175D1420469B}.wem"
+     },
+     {
+      "Id": "136507884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST FOOTSTEPS.wav",
+      "CachePath": "3C/{3C8F7728-6EEC-F8A6-8575-BA2EE89EABD7}.wem"
+     },
+     {
+      "Id": "218572243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD CREACK 1.wav",
+      "CachePath": "C0/{C0766ED4-118B-3ABC-02B5-FE75B62B5D0A}.wem"
+     },
+     {
+      "Id": "287083828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "0E/{0E0EEDE0-EC2F-4AE3-5460-97F2D09F9E7B}.wem"
+     },
      {
       "Id": "356258824",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wind (1).wav",
-      "CachePath": "C7/{C72A75B9-ECFC-6391-9B56-0306DBD7CD77}.wem"
+      "CachePath": "13/{1301E708-80A4-728E-3D53-624AF43870E6}.wem"
+     },
+     {
+      "Id": "385976428",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "6A/{6A13177A-9657-DD39-F08A-0D0A967369FA}.wem"
+     },
+     {
+      "Id": "444983305",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST FOOTSTEPS.wav",
+      "CachePath": "57/{57264783-EEE1-6283-944F-9FEF39CED7B4}.wem"
+     },
+     {
+      "Id": "457725493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD CREACK 1.wav",
+      "CachePath": "56/{5671C92D-3401-62D7-3AA6-9CCFC3CFD4B2}.wem"
+     },
+     {
+      "Id": "494515281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST FOOTSTEPS.wav",
+      "CachePath": "11/{1170D9D7-651F-47C4-F8C2-353645F9365D}.wem"
+     },
+     {
+      "Id": "641209218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST AMBIENCE 1.wav",
+      "CachePath": "48/{4834A982-AC91-0E72-B2FF-15C71619F0B4}.wem"
+     },
+     {
+      "Id": "676325588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD CREACK 1.wav",
+      "CachePath": "81/{81950638-03F7-AA93-19FD-FBB3607E5E60}.wem"
+     },
+     {
+      "Id": "834949728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "D6/{D61BF765-DAAA-15D5-096F-3FAF34A34923}.wem"
+     },
+     {
+      "Id": "836516116",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBIENCE INTRO.wav",
+      "CachePath": "FF/{FF3C985B-5856-DA12-BAA1-A5957F45C37D}.wem"
+     },
+     {
+      "Id": "855103482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Piano y Violín Íntimos).wav",
+      "CachePath": "EC/{ECD95E6D-C986-4DBA-6C0F-7A72822C007A}.wem"
+     },
+     {
+      "Id": "858860063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PLAY GAME.wav",
+      "CachePath": "94/{9465AF52-495E-B74A-793E-2B5EDF3B97FC}.wem"
+     },
+     {
+      "Id": "865195843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD CREACK 1.wav",
+      "CachePath": "1B/{1BA9FB3B-E89E-BEC6-8174-340A900E3FCB}.wem"
+     },
+     {
+      "Id": "866440829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "85/{859D4D6B-C726-DCB5-FD62-C3F7AFD299A8}.wem"
+     },
+     {
+      "Id": "880691389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD CREACK 1.wav",
+      "CachePath": "3F/{3F304417-746B-FBD9-CFFD-69CBCD624EC5}.wem"
+     },
+     {
+      "Id": "906532879",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "FD/{FDE0FBCE-2802-2B48-82A7-B03EA7E860DA}.wem"
+     },
+     {
+      "Id": "980950721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GAME MENU.wav",
+      "CachePath": "4E/{4E0CC601-BC49-69D3-52B3-DB6DDA94E152}.wem"
+     },
+     {
+      "Id": "1017975414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOREST FOOTSTEPS.wav",
+      "CachePath": "65/{65E71150-1B1E-34DB-B772-8D8B099E570F}.wem"
+     },
+     {
+      "Id": "1071192940",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WOOD FOOTSTEPS.wav",
+      "CachePath": "07/{07465F92-63AA-F0F9-BF42-395687F4FB2D}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1886858530",
-      "Name": "AX",
-      "ObjectPath": "\\Events\\Default Work Unit\\AX",
-      "GUID": "{86B28648-D42E-4094-A470-D6BB5FEF22EE}",
+      "Id": "636711392",
+      "Name": "AXINTRO",
+      "ObjectPath": "\\Events\\Default Work Unit\\AXINTRO",
+      "GUID": "{485EB888-E2B5-4B44-8D73-33A117F7A9A9}",
+      "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "155.48866",
-      "DurationMax": "155.48866",
+      "DurationMin": "155.93692",
+      "DurationMax": "155.93692",
+      "MediaRefs": [
+       {
+        "Id": "836516116"
+       }
+      ]
+     },
+     {
+      "Id": "3321559715",
+      "Name": "axmenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENU\\axmenu",
+      "GUID": "{86B28648-D42E-4094-A470-D6BB5FEF22EE}",
+      "Color": "26",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "356258824"
+       },
+       {
+        "Id": "641209218"
+       },
+       {
+        "Id": "855103482"
+       }
+      ]
+     },
+     {
+      "Id": "560945065",
+      "Name": "creackwood",
+      "ObjectPath": "\\Events\\Default Work Unit\\creackwood",
+      "GUID": "{9DFD880F-8D1E-438D-A4AB-DA4E75F26009}",
+      "Color": "13",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "181.2208",
+      "DurationMax": "181.2208",
+      "MediaRefs": [
+       {
+        "Id": "218572243"
+       },
+       {
+        "Id": "457725493"
+       },
+       {
+        "Id": "676325588"
+       },
+       {
+        "Id": "865195843"
+       },
+       {
+        "Id": "880691389"
+       }
+      ]
+     },
+     {
+      "Id": "2141457131",
+      "Name": "FORESTFOOTSTEPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\FORESTFOOTSTEPS",
+      "GUID": "{68FA18F0-5548-4E3F-BF4B-49E836EB0FE2}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.51018196",
+      "DurationMax": "1.123963",
+      "MediaRefs": [
+       {
+        "Id": "124463047"
+       },
+       {
+        "Id": "136507884"
+       },
+       {
+        "Id": "444983305"
+       },
+       {
+        "Id": "494515281"
+       },
+       {
+        "Id": "1017975414"
+       }
+      ]
+     },
+     {
+      "Id": "2364697178",
+      "Name": "MENUOPTIONS",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENU\\MENUOPTIONS",
+      "GUID": "{DA6CDC5A-2A73-4668-A419-BF00242E4192}",
+      "Color": "26",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3589698",
+      "DurationMax": "0.53013605",
+      "MediaRefs": [
+       {
+        "Id": "980950721"
+       }
+      ]
+     },
+     {
+      "Id": "3518117542",
+      "Name": "MENUPLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\MENU\\MENUPLAY",
+      "GUID": "{AE956493-26DA-46E3-A5BB-6FD01D055CB6}",
+      "Color": "26",
+      "DurationType": "OneShot",
+      "DurationMin": "1.75175",
+      "DurationMax": "1.75175",
+      "MediaRefs": [
+       {
+        "Id": "858860063"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_FOOTSTEPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FOOTSTEPS",
+      "GUID": "{5E9EB099-B0A4-4383-B62E-5E98FA2CF5A1}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45009825",
+      "DurationMax": "1.123963",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2058049674",
+         "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "287083828"
+         },
+         {
+          "Id": "385976428"
+         },
+         {
+          "Id": "834949728"
+         },
+         {
+          "Id": "866440829"
+         },
+         {
+          "Id": "906532879"
+         },
+         {
+          "Id": "1071192940"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{A1867FE2-0427-42E2-9A53-38EA7E6143C3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "124463047"
+         },
+         {
+          "Id": "136507884"
+         },
+         {
+          "Id": "444983305"
+         },
+         {
+          "Id": "494515281"
+         },
+         {
+          "Id": "1017975414"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "646981407",
+      "Name": "woodFOOTSTEPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\woodFOOTSTEPS",
+      "GUID": "{ECC441F7-E872-4DC9-8443-D696D1B2E278}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45009825",
+      "DurationMax": "0.97598225",
+      "MediaRefs": [
+       {
+        "Id": "287083828"
+       },
+       {
+        "Id": "385976428"
+       },
+       {
+        "Id": "834949728"
+       },
+       {
+        "Id": "866440829"
+       },
+       {
+        "Id": "906532879"
+       },
+       {
+        "Id": "1071192940"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "FOOTSTEPS",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS",
+      "GUID": "{B93F63D8-4B61-405D-8D7F-739529C44967}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "WOOD",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\WOOD",
+        "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "GRASS",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\GRASS",
+        "GUID": "{A1867FE2-0427-42E2-9A53-38EA7E6143C3}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{E92BD330-DFC2-A6B3-1035-EF22C7347B22}"
+  "FileHash": "{E66D20D4-F6EC-65C4-F1AA-503351A1EBA6}"
  }
 }
