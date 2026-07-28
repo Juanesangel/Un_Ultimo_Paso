@@ -1,8 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	560945065	creackwood			\Default Work Unit\creackwood	
 	636711392	AXINTRO			\Default Work Unit\AXINTRO	
-	646981407	woodFOOTSTEPS			\Default Work Unit\woodFOOTSTEPS	
-	2141457131	FORESTFOOTSTEPS			\Default Work Unit\FORESTFOOTSTEPS	
 	2364697178	MENUOPTIONS			\Default Work Unit\MENU\MENUOPTIONS	
 	3321559715	axmenu			\Default Work Unit\MENU\axmenu	
 	3518117542	MENUPLAY			\Default Work Unit\MENU\MENUPLAY	

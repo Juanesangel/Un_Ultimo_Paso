@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{BF826E37-81C3-11A1-7844-D005AF0537DA}",
+    "Hash": "{2CF3D124-E612-2D9D-78EE-E5B2DB975A0F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -296,33 +296,6 @@
       ]
      },
      {
-      "Id": "2141457131",
-      "Name": "FORESTFOOTSTEPS",
-      "ObjectPath": "\\Events\\Default Work Unit\\FORESTFOOTSTEPS",
-      "GUID": "{68FA18F0-5548-4E3F-BF4B-49E836EB0FE2}",
-      "Color": "4",
-      "DurationType": "OneShot",
-      "DurationMin": "0.51018196",
-      "DurationMax": "1.123963",
-      "MediaRefs": [
-       {
-        "Id": "124463047"
-       },
-       {
-        "Id": "136507884"
-       },
-       {
-        "Id": "444983305"
-       },
-       {
-        "Id": "494515281"
-       },
-       {
-        "Id": "1017975414"
-       }
-      ]
-     },
-     {
       "Id": "2364697178",
       "Name": "MENUOPTIONS",
       "ObjectPath": "\\Events\\Default Work Unit\\MENU\\MENUOPTIONS",
@@ -356,7 +329,7 @@
       "Id": "3854155799",
       "Name": "Play_FOOTSTEPS",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FOOTSTEPS",
-      "GUID": "{5E9EB099-B0A4-4383-B62E-5E98FA2CF5A1}",
+      "GUID": "{83B054CB-BAC8-498C-B56E-034FD63EFBD2}",
       "Color": "4",
       "DurationType": "OneShot",
       "DurationMin": "0.45009825",
@@ -441,36 +414,6 @@
         ]
        }
       ]
-     },
-     {
-      "Id": "646981407",
-      "Name": "woodFOOTSTEPS",
-      "ObjectPath": "\\Events\\Default Work Unit\\woodFOOTSTEPS",
-      "GUID": "{ECC441F7-E872-4DC9-8443-D696D1B2E278}",
-      "Color": "4",
-      "DurationType": "OneShot",
-      "DurationMin": "0.45009825",
-      "DurationMax": "0.97598225",
-      "MediaRefs": [
-       {
-        "Id": "287083828"
-       },
-       {
-        "Id": "385976428"
-       },
-       {
-        "Id": "834949728"
-       },
-       {
-        "Id": "866440829"
-       },
-       {
-        "Id": "906532879"
-       },
-       {
-        "Id": "1071192940"
-       }
-      ]
      }
     ],
     "SwitchGroups": [
@@ -503,6 +446,6 @@
     ]
    }
   ],
-  "FileHash": "{926CEF55-81B9-5F0B-102D-2FAC6451B425}"
+  "FileHash": "{5EBE8D2E-C83E-8F5E-A9C8-F8C0D33DDA96}"
  }
 }
