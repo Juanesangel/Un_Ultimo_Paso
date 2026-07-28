@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "624189772",
+    "Type": "Event",
+    "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
+    "Language": "SFX",
+    "Hash": "{0736F259-89C4-65D1-36B5-BB3D09562A21}",
+    "ObjectPath": "LAKE",
+    "ShortName": "LAKE",
+    "Path": "Event/LAKE.bnk",
+    "Media": [
+     {
+      "Id": "679247532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "102809__juskiddink__lake-shore-waves-from-boat-wake.wav",
+      "Path": "Media/679247532.wem",
+      "CachePath": "8F/{8F8234A6-75F8-0A86-F31D-58B5464163AB}.wem"
+     },
+     {
+      "Id": "1037413192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LAGO.wav",
+      "Path": "Media/1037413192.wem",
+      "CachePath": "34/{342D09D2-FCB2-6F0E-F640-3F021A83DF9F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "624189772",
+      "Name": "LAKE",
+      "ObjectPath": "\\Events\\Default Work Unit\\LAKE",
+      "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
+      "Color": "13",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "679247532"
+       },
+       {
+        "Id": "1037413192"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D079C832-8CCC-676E-EB3F-521BBB8D9A36}"
+ }
+}
