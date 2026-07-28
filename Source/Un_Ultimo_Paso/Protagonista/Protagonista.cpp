@@ -33,7 +33,7 @@ AProtagonista::AProtagonista()
     bUseControllerRotationRoll = false;
 
     GetCharacterMovement()->bOrientRotationToMovement = true;
-    GetCharacterMovement()->RotationRate = FRotator(0.f, 260.f, 0.f);
+    GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
         
     // --- Push detector ---
     PushDetector = CreateDefaultSubobject<UBoxComponent>(TEXT("PushDetector"));
