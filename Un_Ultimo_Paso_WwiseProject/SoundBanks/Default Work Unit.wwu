@@ -6,13 +6,11 @@
 				<SoundBank Name="MAIN" ID="{4978BA08-E6F4-497C-9C40-4B8342B69C42}">
 					<ObjectInclusionList>
 						<ObjectRef Name="axmenu" ID="{86B28648-D42E-4094-A470-D6BB5FEF22EE}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FOOTSTEPS" ID="{5E9EB099-B0A4-4383-B62E-5E98FA2CF5A1}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="creackwood" ID="{9DFD880F-8D1E-438D-A4AB-DA4E75F26009}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MENUOPTIONS" ID="{DA6CDC5A-2A73-4668-A419-BF00242E4192}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MENUPLAY" ID="{AE956493-26DA-46E3-A5BB-6FD01D055CB6}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FOOTSTEPS" ID="{83B054CB-BAC8-498C-B56E-034FD63EFBD2}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AXINTRO" ID="{485EB888-E2B5-4B44-8D73-33A117F7A9A9}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="woodFOOTSTEPS" ID="{ECC441F7-E872-4DC9-8443-D696D1B2E278}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="FORESTFOOTSTEPS" ID="{68FA18F0-5548-4E3F-BF4B-49E836EB0FE2}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
