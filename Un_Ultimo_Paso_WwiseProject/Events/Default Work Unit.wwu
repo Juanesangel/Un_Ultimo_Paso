@@ -160,6 +160,145 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_AMBIENCE_CAP_1_ESTUDIO" ID="{F0A8CD6D-5995-4A09-AC40-E9DAD352881C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C033F5A3-1397-46A6-8F92-D2699754B575}" ShortID="807031310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE CAP 1 ESTUDIO" ID="{E3EDFBFB-91D9-4D99-9148-2977AE104E1F}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMBIENCE_CAP_1_ESTUDIO" ID="{F29053D6-5C5D-45DE-85F3-E8E1DB269352}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{1634742B-2D69-4990-A5DD-D949D10B301A}" ShortID="806244186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE CAP 1 ESTUDIO" ID="{E3EDFBFB-91D9-4D99-9148-2977AE104E1F}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CAP1EXT" ID="{D75FF5AA-AEEB-447C-AC4A-045EC512F353}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{57825013-981D-4B3E-B777-FAE834B46102}" ShortID="769742737">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC CAP 1" ID="{8950F0DC-30A8-42DA-8894-C239CD109AC0}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0024FCBA-44FC-4554-B8FD-2578F55009CD}" ShortID="837782774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE CAP 1" ID="{A154967F-6B25-4CF6-8420-0A84322E30A3}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DEC80B89-CE97-407A-97E2-32CDA01C0E6A}" ShortID="158483189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE FOREST 2" ID="{CFFB040A-0A7F-4889-B4E2-B37BF04047BA}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CAP1INT" ID="{EA01E407-CB43-4709-A42E-C2F5F35FD0A5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C9766821-51EE-49C1-8487-C0438D7FD723}" ShortID="980890486">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SILVIDOS" ID="{9CE44220-7FEF-46FB-AB6E-94B9604064EF}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{87A04BD4-F0BA-410C-AFB8-8BD36359B4B3}" ShortID="155945472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE CAP 1" ID="{CF8F86D7-877B-4AD7-BDA0-89C21B5792AB}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5032A562-C53B-4979-AE79-6A5DAF4B6F81}" ShortID="219441466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIENCE CAP 1" ID="{A154967F-6B25-4CF6-8420-0A84322E30A3}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LAKECAP1" ID="{B62D88EA-211C-4C84-8DF2-21F33BDC8D49}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{06BC5645-39DD-4DB6-A678-2F07576783FE}" ShortID="788280955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="102809__juskiddink__lake-shore-waves-from-boat-wake" ID="{9FB2168D-A2B4-43B4-B027-0E254C9D653E}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{249313D8-8828-4094-8EF3-AB49756F0D09}" ShortID="862298734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LAGO" ID="{F6F5C2D0-2DBC-4B29-92EA-227EF54D2F2D}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_forest" ID="{5BB5A428-CBAB-48A8-BAB2-B85B27CC3A2E}">
+					<ChildrenList>
+						<Action Name="" ID="{F783E750-B2DB-45EC-A58B-3209C89B7F38}" ShortID="355538575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="forest" ID="{5E874445-86A3-477F-ADBF-FF4B50A6D220}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BOTE_MOVE" ID="{D0EFB07B-5CBE-449B-98E3-9676F91C5DD8}">
+					<ChildrenList>
+						<Action Name="" ID="{43860EB3-9A9B-406E-A4BE-360E1D7AAE07}" ShortID="747849158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BOTE MOVE" ID="{836CF6D7-37DF-4C74-BF01-EE5F2F71FCAB}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

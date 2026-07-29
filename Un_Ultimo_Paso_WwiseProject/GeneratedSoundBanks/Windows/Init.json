@@ -50,10 +50,22 @@
       "GUID": "{B93F63D8-4B61-405D-8D7F-739529C44967}",
       "Switches": [
        {
+        "Id": "841620460",
+        "Name": "CONCRETE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\CONCRETE",
+        "GUID": "{C504383B-498F-4BB0-88D4-AD430061EDF4}"
+       },
+       {
         "Id": "2058049674",
         "Name": "WOOD",
         "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\WOOD",
         "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "DIRT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\DIRT",
+        "GUID": "{E0C79A68-FA76-4B29-9906-D660F6BAF3A3}"
        },
        {
         "Id": "2654748154",
@@ -72,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{F15A17A6-5308-833A-0022-1D1E49ED8D54}"
+  "FileHash": "{E9CCF449-A756-626A-1C1E-62F69CBB8B44}"
  }
 }

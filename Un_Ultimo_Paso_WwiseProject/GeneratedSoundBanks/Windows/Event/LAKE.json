@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
     "Language": "SFX",
-    "Hash": "{0736F259-89C4-65D1-36B5-BB3D09562A21}",
+    "Hash": "{A59BC451-7870-25B7-284F-D266D8E527A5}",
     "ObjectPath": "LAKE",
     "ShortName": "LAKE",
     "Path": "Event/LAKE.bnk",
@@ -41,6 +41,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\LAKE",
       "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
       "Color": "13",
+      "MaxAttenuation": "14000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -54,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{218F948B-CA8A-30B4-2609-F54AE882F537}"
+  "FileHash": "{82423611-D9C9-B7B4-43E0-7F6A34499EDE}"
  }
 }

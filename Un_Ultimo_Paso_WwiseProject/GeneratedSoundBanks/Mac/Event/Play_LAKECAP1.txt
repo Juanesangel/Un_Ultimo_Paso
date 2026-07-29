@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4274441834	Play_LAKECAP1			\Default Work Unit\Play_LAKECAP1	
+

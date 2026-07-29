@@ -8,6 +8,8 @@
 						<Switch Name="WOOD" ID="{7BC382CA-6B97-4BA7-964F-340181362121}"/>
 						<Switch Name="GRASS" ID="{A1867FE2-0427-42E2-9A53-38EA7E6143C3}"/>
 						<Switch Name="WATER" ID="{641DCF1E-F615-4489-8C02-2FD7CD66FD88}"/>
+						<Switch Name="CONCRETE" ID="{C504383B-498F-4BB0-88D4-AD430061EDF4}"/>
+						<Switch Name="DIRT" ID="{E0C79A68-FA76-4B29-9906-D660F6BAF3A3}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
