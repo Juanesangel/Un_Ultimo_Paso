@@ -10,11 +10,51 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{2CF3D124-E612-2D9D-78EE-E5B2DB975A0F}",
+    "Hash": "{91B46E85-8FDD-70DD-3BD1-4ADD70D04AF3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
     "Media": [
+     {
+      "Id": "37151973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "B4/{B44F60E8-5093-941A-10F6-0D5CB9CABFCA}.wem"
+     },
+     {
+      "Id": "39421105",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "8B/{8BBC2FB2-5431-CC2F-BC64-21366ED44240}.wem"
+     },
+     {
+      "Id": "62399278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "42/{42B2797B-4B3B-F7C8-7305-785FCBBE33C2}.wem"
+     },
+     {
+      "Id": "104022770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "EC/{ECDD3A70-DFCD-7A81-1B55-5E818F6B59B7}.wem"
+     },
+     {
+      "Id": "109306994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HOME AMBIENCE 2.wav",
+      "CachePath": "A9/{A9FA6A15-774C-3970-884C-50A542BE9D18}.wem"
+     },
      {
       "Id": "116093978",
       "Language": "SFX",
@@ -22,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "PASOS AGUA.wav",
       "CachePath": "72/{725A94E1-8073-3F59-BBBD-D9B1AD372F0D}.wem"
+     },
+     {
+      "Id": "121581334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "39/{39FC46A6-4CA7-0C5D-AF75-53B6B81C071D}.wem"
      },
      {
       "Id": "124463047",
@@ -40,12 +88,36 @@
       "CachePath": "3C/{3C8F7728-6EEC-F8A6-8575-BA2EE89EABD7}.wem"
      },
      {
+      "Id": "164564151",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "D0/{D0A9DC83-0165-A9E4-C336-67F3C0532C1B}.wem"
+     },
+     {
       "Id": "218572243",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "WOOD CREACK 1.wav",
       "CachePath": "C0/{C0766ED4-118B-3ABC-02B5-FE75B62B5D0A}.wem"
+     },
+     {
+      "Id": "237738778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HOME AMBIENCE 2.wav",
+      "CachePath": "AF/{AF7E2C70-5CE3-1F59-694E-6851C22732CD}.wem"
+     },
+     {
+      "Id": "241102968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "C7/{C7BB340F-E0CC-2EF5-7CB3-8330333876EB}.wem"
      },
      {
       "Id": "282743666",
@@ -64,6 +136,22 @@
       "CachePath": "0E/{0E0EEDE0-EC2F-4AE3-5460-97F2D09F9E7B}.wem"
      },
      {
+      "Id": "296908903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "45/{452D6686-4AF3-6DF3-8C16-AB616DD1C020}.wem"
+     },
+     {
+      "Id": "342171902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "87/{87EBCAED-1A2B-472D-4566-FDE4D1C19308}.wem"
+     },
+     {
       "Id": "356258824",
       "Language": "SFX",
       "Streaming": "false",
@@ -72,12 +160,36 @@
       "CachePath": "13/{1301E708-80A4-728E-3D53-624AF43870E6}.wem"
      },
      {
+      "Id": "356911777",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBIENCE CAP 1 ESTUDIO.wav",
+      "CachePath": "70/{7085C903-F1E9-B462-70BE-F4BB8A3A4029}.wem"
+     },
+     {
       "Id": "385976428",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "WOOD FOOTSTEPS.wav",
       "CachePath": "6A/{6A13177A-9657-DD39-F08A-0D0A967369FA}.wem"
+     },
+     {
+      "Id": "393859458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "3C/{3C7645F8-985A-EB32-6A4B-206B0200230C}.wem"
+     },
+     {
+      "Id": "407860804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBIENCE FOREST 2.wav",
+      "CachePath": "76/{7601A308-8687-B9F9-F622-CAFD96518F34}.wem"
      },
      {
       "Id": "444983305",
@@ -96,12 +208,100 @@
       "CachePath": "56/{5671C92D-3401-62D7-3AA6-9CCFC3CFD4B2}.wem"
      },
      {
+      "Id": "471546301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "forest.wav",
+      "CachePath": "E8/{E8F1E0E5-9B4E-B642-3300-28B49904041A}.wem"
+     },
+     {
       "Id": "494515281",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FOREST FOOTSTEPS.wav",
       "CachePath": "11/{1170D9D7-651F-47C4-F8C2-353645F9365D}.wem"
+     },
+     {
+      "Id": "525306088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "1D/{1D092E7E-9008-9BF1-9148-622CB53B4128}.wem"
+     },
+     {
+      "Id": "531047724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBIENCE CAP 1.wav",
+      "CachePath": "AF/{AFD19985-6CB9-7750-75F2-A6340E02F044}.wem"
+     },
+     {
+      "Id": "536272681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "5E/{5EA9CB1E-2AD8-B449-793E-143EC7AD7FB0}.wem"
+     },
+     {
+      "Id": "542755530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "79/{79E96E6E-88F2-E3D6-6A77-7EE4F518215A}.wem"
+     },
+     {
+      "Id": "544161049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "D4/{D48A35A7-165B-43C5-4392-C41A65113F40}.wem"
+     },
+     {
+      "Id": "559110559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "94/{9417BC97-FCBD-0EF4-89CF-97BBE81FBABA}.wem"
+     },
+     {
+      "Id": "581414041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HOME AMBIENCE 1.wav",
+      "CachePath": "97/{978978D9-4F65-0FDF-749D-1146899488E4}.wem"
+     },
+     {
+      "Id": "620200711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "6C/{6C368D02-74D5-7007-C839-43C4959680E1}.wem"
+     },
+     {
+      "Id": "625087225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "81/{815555DA-1443-E931-8C34-8060C9B5205F}.wem"
+     },
+     {
+      "Id": "625432089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "49/{49A16C1E-D0F8-70BE-A3C7-6D366C508EE8}.wem"
      },
      {
       "Id": "641209218",
@@ -120,12 +320,52 @@
       "CachePath": "81/{81950638-03F7-AA93-19FD-FBB3607E5E60}.wem"
      },
      {
+      "Id": "699157144",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HOME AMBIENCE 2.wav",
+      "CachePath": "C6/{C60ED690-BE18-40A4-603A-D721D79D3F4F}.wem"
+     },
+     {
+      "Id": "706928701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "4A/{4AA3B3D1-9FA6-3E77-10C1-9E8F0C2C42C0}.wem"
+     },
+     {
+      "Id": "715185567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "F2/{F26A443A-606B-ADE7-E3AA-D881B7D9162D}.wem"
+     },
+     {
       "Id": "732420709",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PASOS AGUA.wav",
       "CachePath": "15/{153D2A00-D299-FC63-AB1D-C0F662423129}.wem"
+     },
+     {
+      "Id": "774971222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "80/{806C1F27-6BB8-57DA-EBFD-3010F23ADE91}.wem"
+     },
+     {
+      "Id": "795029861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "F0/{F0A0C484-90DD-0F1B-A1B5-E7F614C3B1EA}.wem"
      },
      {
       "Id": "834949728",
@@ -184,6 +424,22 @@
       "CachePath": "85/{859D4D6B-C726-DCB5-FD62-C3F7AFD299A8}.wem"
      },
      {
+      "Id": "869017521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt footsteps (1).wav",
+      "CachePath": "CC/{CCD64662-8C02-A9A3-8A3F-2F8C99383304}.wem"
+     },
+     {
+      "Id": "872654972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "85/{85C81953-22CF-97E0-458F-7DB7B5E38983}.wem"
+     },
+     {
       "Id": "880691389",
       "Language": "SFX",
       "Streaming": "false",
@@ -198,6 +454,22 @@
       "Location": "Memory",
       "ShortName": "WOOD FOOTSTEPS.wav",
       "CachePath": "FD/{FDE0FBCE-2802-2B48-82A7-B03EA7E860DA}.wem"
+     },
+     {
+      "Id": "930282384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBIENCE CAP 1.wav",
+      "CachePath": "25/{25084E31-F192-83DE-7B46-67D47EC65A44}.wem"
+     },
+     {
+      "Id": "955841324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "concrete ft.wav",
+      "CachePath": "D2/{D2423018-7C77-8ACB-6CD5-127A4BD3598B}.wem"
      },
      {
       "Id": "979638804",
@@ -222,6 +494,22 @@
       "Location": "Memory",
       "ShortName": "FOREST FOOTSTEPS.wav",
       "CachePath": "65/{65E71150-1B1E-34DB-B772-8D8B099E570F}.wem"
+     },
+     {
+      "Id": "1034488277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BOTE SOUND.wav",
+      "CachePath": "5E/{5E5F7C4A-94F2-BB1C-0525-D4F3593B3AAB}.wem"
+     },
+     {
+      "Id": "1040225677",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
+      "CachePath": "F2/{F2494D6E-A2C5-9783-7A50-8124DD9E261F}.wem"
      },
      {
       "Id": "1071192940",
@@ -268,12 +556,77 @@
       ]
      },
      {
+      "Id": "1673920501",
+      "Name": "CAP1EXT",
+      "ObjectPath": "\\Events\\Default Work Unit\\CAP1EXT",
+      "GUID": "{D75FF5AA-AEEB-447C-AC4A-045EC512F353}",
+      "Color": "12",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "37151973"
+       },
+       {
+        "Id": "164564151"
+       },
+       {
+        "Id": "393859458"
+       },
+       {
+        "Id": "407860804"
+       },
+       {
+        "Id": "625432089"
+       },
+       {
+        "Id": "706928701"
+       },
+       {
+        "Id": "795029861"
+       },
+       {
+        "Id": "930282384"
+       },
+       {
+        "Id": "1040225677"
+       }
+      ]
+     },
+     {
+      "Id": "1441005311",
+      "Name": "CAP1INT",
+      "ObjectPath": "\\Events\\Default Work Unit\\CAP1INT",
+      "GUID": "{EA01E407-CB43-4709-A42E-C2F5F35FD0A5}",
+      "Color": "12",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "109306994"
+       },
+       {
+        "Id": "237738778"
+       },
+       {
+        "Id": "531047724"
+       },
+       {
+        "Id": "581414041"
+       },
+       {
+        "Id": "699157144"
+       },
+       {
+        "Id": "930282384"
+       }
+      ]
+     },
+     {
       "Id": "560945065",
       "Name": "creackwood",
       "ObjectPath": "\\Events\\Default Work Unit\\creackwood",
       "GUID": "{9DFD880F-8D1E-438D-A4AB-DA4E75F26009}",
       "Color": "13",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "700",
       "DurationType": "OneShot",
       "DurationMin": "181.2208",
       "DurationMax": "181.2208",
@@ -326,13 +679,64 @@
       ]
      },
      {
+      "Id": "862999429",
+      "Name": "Play_AMBIENCE_CAP_1_ESTUDIO",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMBIENCE_CAP_1_ESTUDIO",
+      "GUID": "{F0A8CD6D-5995-4A09-AC40-E9DAD352881C}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "509.4883",
+      "DurationMax": "509.4883",
+      "MediaRefs": [
+       {
+        "Id": "356911777"
+       }
+      ]
+     },
+     {
+      "Id": "3837915638",
+      "Name": "Play_BOTE_MOVE",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BOTE_MOVE",
+      "GUID": "{D0EFB07B-5CBE-449B-98E3-9676F91C5DD8}",
+      "MaxAttenuation": "0.25",
+      "DurationType": "OneShot",
+      "DurationMin": "64.02122",
+      "DurationMax": "71.692955",
+      "MediaRefs": [
+       {
+        "Id": "39421105"
+       },
+       {
+        "Id": "62399278"
+       },
+       {
+        "Id": "342171902"
+       },
+       {
+        "Id": "525306088"
+       },
+       {
+        "Id": "544161049"
+       },
+       {
+        "Id": "559110559"
+       },
+       {
+        "Id": "620200711"
+       },
+       {
+        "Id": "1034488277"
+       }
+      ]
+     },
+     {
       "Id": "3854155799",
       "Name": "Play_FOOTSTEPS",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FOOTSTEPS",
       "GUID": "{83B054CB-BAC8-498C-B56E-034FD63EFBD2}",
       "Color": "4",
       "DurationType": "OneShot",
-      "DurationMin": "0.45009825",
+      "DurationMin": "0.22887148",
       "DurationMax": "2.0495253",
       "SwitchContainers": [
        {
@@ -357,6 +761,62 @@
          },
          {
           "Id": "979638804"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "841620460",
+         "GUID": "{C504383B-498F-4BB0-88D4-AD430061EDF4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "121581334"
+         },
+         {
+          "Id": "536272681"
+         },
+         {
+          "Id": "542755530"
+         },
+         {
+          "Id": "715185567"
+         },
+         {
+          "Id": "872654972"
+         },
+         {
+          "Id": "955841324"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2195636714",
+         "GUID": "{E0C79A68-FA76-4B29-9906-D660F6BAF3A3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "104022770"
+         },
+         {
+          "Id": "241102968"
+         },
+         {
+          "Id": "296908903"
+         },
+         {
+          "Id": "625087225"
+         },
+         {
+          "Id": "774971222"
+         },
+         {
+          "Id": "869017521"
          }
         ]
        },
@@ -414,6 +874,32 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "207755397",
+      "Name": "Play_forest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_forest",
+      "GUID": "{5BB5A428-CBAB-48A8-BAB2-B85B27CC3A2E}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "213.00446",
+      "DurationMax": "213.00446",
+      "MediaRefs": [
+       {
+        "Id": "471546301"
+       }
+      ]
+     },
+     {
+      "Id": "3670634783",
+      "Name": "Stop_AMBIENCE_CAP_1_ESTUDIO",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_AMBIENCE_CAP_1_ESTUDIO",
+      "GUID": "{F29053D6-5C5D-45DE-85F3-E8E1DB269352}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -424,10 +910,22 @@
       "GUID": "{B93F63D8-4B61-405D-8D7F-739529C44967}",
       "Switches": [
        {
+        "Id": "841620460",
+        "Name": "CONCRETE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\CONCRETE",
+        "GUID": "{C504383B-498F-4BB0-88D4-AD430061EDF4}"
+       },
+       {
         "Id": "2058049674",
         "Name": "WOOD",
         "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\WOOD",
         "GUID": "{7BC382CA-6B97-4BA7-964F-340181362121}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "DIRT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEPS\\DIRT",
+        "GUID": "{E0C79A68-FA76-4B29-9906-D660F6BAF3A3}"
        },
        {
         "Id": "2654748154",
@@ -446,6 +944,6 @@
     ]
    }
   ],
-  "FileHash": "{5EBE8D2E-C83E-8F5E-A9C8-F8C0D33DDA96}"
+  "FileHash": "{70F8B806-0B9D-83B9-65C2-EF9C2FE1A1BE}"
  }
 }

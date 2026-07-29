@@ -1,19 +1,19 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Mac",
-  "BasePlatform": "Mac",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
   "SchemaVersion": "16",
   "SoundBankVersion": "172",
   "SoundBanks": [
    {
-    "Id": "624189772",
+    "Id": "4274441834",
     "Type": "Event",
-    "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
+    "GUID": "{B62D88EA-211C-4C84-8DF2-21F33BDC8D49}",
     "Language": "SFX",
-    "Hash": "{A59BC451-7870-25B7-284F-D266D8E527A5}",
-    "ObjectPath": "LAKE",
-    "ShortName": "LAKE",
-    "Path": "Event/LAKE.bnk",
+    "Hash": "{6E55D3F7-8F07-0342-CA4B-3B1061DA5F10}",
+    "ObjectPath": "Play_LAKECAP1",
+    "ShortName": "Play_LAKECAP1",
+    "Path": "Event/Play_LAKECAP1.bnk",
     "Media": [
      {
       "Id": "679247532",
@@ -36,11 +36,11 @@
     ],
     "Events": [
      {
-      "Id": "624189772",
-      "Name": "LAKE",
-      "ObjectPath": "\\Events\\Default Work Unit\\LAKE",
-      "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
-      "Color": "13",
+      "Id": "4274441834",
+      "Name": "Play_LAKECAP1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LAKECAP1",
+      "GUID": "{B62D88EA-211C-4C84-8DF2-21F33BDC8D49}",
+      "Color": "12",
       "MaxAttenuation": "14000",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{2C78BFE6-F342-D400-FF98-7DE5537A0967}"
+  "FileHash": "{03A8C356-B874-0FFE-900D-F69ECE4139F3}"
  }
 }
