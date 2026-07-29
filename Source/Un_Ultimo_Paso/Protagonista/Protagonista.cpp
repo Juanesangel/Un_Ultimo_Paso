@@ -18,11 +18,11 @@ AProtagonista::AProtagonista()
 	// --- Cámara ---
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->TargetArmLength = 400.f;
+	SpringArm->TargetArmLength = 0.f;
 	SpringArm->bUsePawnControlRotation = false;
 
     SpringArm->SetUsingAbsoluteRotation(true);
-    SpringArm->SetRelativeRotation(FRotator(-45.f, 0.f, 0.f)); // ajusta el ángulo que quieras
+    SpringArm->SetRelativeRotation(FRotator(0.f, 0.f, 0.f)); // ajusta el ángulo que quieras
     SpringArm->bInheritPitch = false;
     SpringArm->bInheritYaw = false;
     SpringArm->bInheritRoll = false;
@@ -33,7 +33,7 @@ AProtagonista::AProtagonista()
     bUseControllerRotationRoll = false;
 
     GetCharacterMovement()->bOrientRotationToMovement = true;
-    GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f);
+    GetCharacterMovement()->RotationRate = FRotator(0.f, 0.f, 0.f);
         
     // --- Push detector ---
     PushDetector = CreateDefaultSubobject<UBoxComponent>(TEXT("PushDetector"));
