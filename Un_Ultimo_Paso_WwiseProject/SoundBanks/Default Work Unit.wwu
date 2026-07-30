@@ -17,7 +17,9 @@
 						<ObjectRef Name="AX CAP 1 HOME" ID="{1387BF0E-9F45-48FE-80F2-25B414502484}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FOOTSTEPS" ID="{83B054CB-BAC8-498C-B56E-034FD63EFBD2}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMBIENCE_CAP_1_ESTUDIO" ID="{F0A8CD6D-5995-4A09-AC40-E9DAD352881C}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_paginas" ID="{AEDB8F2B-3F67-4B2F-860F-4D11345AC831}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AXINTRO" ID="{485EB888-E2B5-4B44-8D73-33A117F7A9A9}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_freesound_community_wood_door_open_and_close_26650" ID="{510C085D-4FF8-4EDD-A06B-288DB1E90D54}" WorkUnitID="{00083D04-C6B2-4DE9-A7DF-C8293F66CC38}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

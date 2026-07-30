@@ -274,6 +274,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="WOODCREACK" ID="{39C901E4-A08D-4A62-B6A7-3A65D9A27B6F}" ShortID="573904771">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="7"/>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
@@ -286,12 +287,12 @@
 										<Property Name="PlayMechanismLoopCount" Type="int32" Value="4"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-14</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1647,6 +1648,7 @@
 						</SwitchContainer>
 						<Sound Name="LAGO" ID="{F6F5C2D0-2DBC-4B29-92EA-227EF54D2F2D}" ShortID="24119779">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="70"/>
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -1690,6 +1692,7 @@
 						</Sound>
 						<Sound Name="102809__juskiddink__lake-shore-waves-from-boat-wake" ID="{9FB2168D-A2B4-43B4-B027-0E254C9D653E}" ShortID="827966048">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="50"/>
 								<Property Name="Color" Type="int16" Value="13"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -2359,6 +2362,8 @@
 						</Folder>
 						<Sound Name="forest" ID="{5E874445-86A3-477F-ADBF-FF4B50A6D220}" ShortID="531572170">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="70"/>
 								<Property Name="Color" Type="int16" Value="12"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
@@ -2369,7 +2374,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-19</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2426,6 +2431,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="BOTE MOVE" ID="{836CF6D7-37DF-4C74-BF01-EE5F2F71FCAB}" ShortID="70341309">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="10"/>
 								<Property Name="Color" Type="int16" Value="25"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -2751,6 +2757,250 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="BOTE SOUND" ID="{4687A2A6-4EB9-40A9-808D-81DA79453FC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="freesound_community-wood-door-open-and-close-26650" ID="{4A81867C-6829-4527-8505-42F6EFBFD97A}" ShortID="767831225">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="freesound_community-wood-door-open-and-close-26650" ID="{26CBD81A-BB7B-481C-8883-F6FBDC9D4E4E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.46266"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.6936"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.18979"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.91643"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>freesound_community-wood-door-open-and-close-26650.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="908650172"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="freesound_community-wood-door-open-and-close-26650" ID="{26CBD81A-BB7B-481C-8883-F6FBDC9D4E4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="paginas" ID="{470EE5FB-F57D-4245-85E6-6BF6D698EEB9}" ShortID="752423723">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="paginas" ID="{BAC61BD4-8C36-4CA8-9E6C-E89CB89A871B}" ShortID="845394486">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="paginas" ID="{FB01D7AB-BF94-414F-9F5A-BFFB43D62892}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.17561"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17562"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.90307"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>paginas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280187919"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="paginas" ID="{FB01D7AB-BF94-414F-9F5A-BFFB43D62892}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="paginas_01" ID="{2BD2C8D2-DE19-4C4D-8FDB-5245200E6564}" ShortID="57997494">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="paginas" ID="{346EC590-147E-416F-B166-A52DBC3280AC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.17561"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17562"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.48017"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.70941"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>paginas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="957481564"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="paginas" ID="{346EC590-147E-416F-B166-A52DBC3280AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="paginas_02" ID="{640CB6EF-79C3-4A95-98A0-B1E27959C5CD}" ShortID="701685612">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="paginas" ID="{8AEF1A9D-7BC4-4314-98A3-89EAB9FF433A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.17561"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17562"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.65932"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.38685"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>paginas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162504275"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="paginas" ID="{8AEF1A9D-7BC4-4314-98A3-89EAB9FF433A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="paginas_03" ID="{DBDB42BF-CD50-48FB-886F-98384CE44A8A}" ShortID="433268485">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="paginas" ID="{9FA207AD-0E37-452B-956C-B6AEF8D90595}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.17561"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17562"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.65932"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.38685"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>paginas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162504275"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="paginas" ID="{9FA207AD-0E37-452B-956C-B6AEF8D90595}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="paginas_04" ID="{9414FCE7-94ED-4DB9-81A4-CA459F7987F5}" ShortID="637710807">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="paginas" ID="{ACFA94BD-EF1A-4B70-86D2-DF9622868819}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.17561"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17562"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.83847"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.69143"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>paginas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396653334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="paginas" ID="{ACFA94BD-EF1A-4B70-86D2-DF9622868819}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

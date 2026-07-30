@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BAAFFEBF-B342-4E40-AABE-A8DA80ABB4BD}",
     "Language": "SFX",
-    "Hash": "{A59BC451-7870-25B7-284F-D266D8E527A5}",
+    "Hash": "{EFAA57E9-FC90-3635-848A-5B777D62ABD9}",
     "ObjectPath": "LAKE",
     "ShortName": "LAKE",
     "Path": "Event/LAKE.bnk",
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{2C78BFE6-F342-D400-FF98-7DE5537A0967}"
+  "FileHash": "{87365107-14B3-5EDC-8B27-3E5FA7527934}"
  }
 }

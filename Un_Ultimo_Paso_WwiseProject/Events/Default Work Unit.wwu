@@ -299,6 +299,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_freesound_community_wood_door_open_and_close_26650" ID="{510C085D-4FF8-4EDD-A06B-288DB1E90D54}">
+					<ChildrenList>
+						<Action Name="" ID="{F1507A65-BB16-4772-9F9A-1DB691D84610}" ShortID="412648706">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="freesound_community-wood-door-open-and-close-26650" ID="{4A81867C-6829-4527-8505-42F6EFBFD97A}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_paginas" ID="{AEDB8F2B-3F67-4B2F-860F-4D11345AC831}">
+					<ChildrenList>
+						<Action Name="" ID="{2487E921-F796-4B24-BA43-395DA50E8922}" ShortID="1036628031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="paginas" ID="{470EE5FB-F57D-4245-85E6-6BF6D698EEB9}" WorkUnitID="{C23E1CCC-859C-4CF4-B8DF-38BF8738296D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
