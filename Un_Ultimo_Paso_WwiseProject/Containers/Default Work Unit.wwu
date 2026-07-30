@@ -275,7 +275,7 @@
 								<RandomSequenceContainer Name="WOODCREACK" ID="{39C901E4-A08D-4A62-B6A7-3A65D9A27B6F}" ShortID="573904771">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="7"/>
+										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="20"/>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>6.5</Value>
@@ -3005,6 +3005,494 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="dialog" ID="{2477E9C8-39F9-4F4A-A7AA-4F4CCC5D5BBC}" ShortID="386298657">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{B2BB163B-18F5-4DB2-89EF-3FA27174C94E}" ShortID="868408507">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{E3C97DB3-50D8-47D4-879F-58850173E888}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.40822"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.30792"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595714394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{E3C97DB3-50D8-47D4-879F-58850173E888}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_01" ID="{40AE0236-0B98-4BA9-BF5F-D948B0CD5551}" ShortID="489143171">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{1E329449-D0DE-44F3-8694-A016661A052E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.26184"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.01328"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="251905020"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{1E329449-D0DE-44F3-8694-A016661A052E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_02" ID="{F786C0B7-1EE3-4A4C-B6FB-7E73A40DC53E}" ShortID="611320814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{2F8731B3-2059-4D4B-ACE3-0F0B67E5A87D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.91117"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.71822"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434602107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{2F8731B3-2059-4D4B-ACE3-0F0B67E5A87D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_03" ID="{2B54CBCD-9BFE-4F90-95DA-3A4F48B47692}" ShortID="802753337">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{DF54DAA1-7027-4AAD-BF1C-921B699FC1C8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.61615"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.49748"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="327474254"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{DF54DAA1-7027-4AAD-BF1C-921B699FC1C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_04" ID="{070E25C3-9BE9-4ABE-98EF-65197A0CE513}" ShortID="226796312">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{75DACA48-CDB5-45E1-BB11-3D689CC7305E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.78502"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.86112"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="479645003"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{75DACA48-CDB5-45E1-BB11-3D689CC7305E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_05" ID="{3262C207-949C-4E34-9109-75B3EF22BABF}" ShortID="343561802">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{226304B8-11A6-4DA4-8E4C-AB1A047C1F0B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.92611"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.69612"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669949725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{226304B8-11A6-4DA4-8E4C-AB1A047C1F0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_06" ID="{D2E93C2E-198F-43D8-AD21-D81EE286444E}" ShortID="986431277">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{CC2B84E8-F578-4B23-9364-AF86B4A246A2}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.5939"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.29903"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226056524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{CC2B84E8-F578-4B23-9364-AF86B4A246A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dragon-studio-keyboard-typing-sound-effect-335503_07" ID="{D5B1C08C-4F54-45F6-BDB5-81B9886D8898}" ShortID="75256326">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{B0CBCB58-65D6-4657-90CF-EC925487CE62}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.07421"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.07423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.29886"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.42133"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dragon-studio-keyboard-typing-sound-effect-335503.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="619296863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dragon-studio-keyboard-typing-sound-effect-335503" ID="{B0CBCB58-65D6-4657-90CF-EC925487CE62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="muerte" ID="{3767060C-3B30-4FB6-BC9B-3439037563B7}" ShortID="734618580">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{035951BA-D9ED-479C-BABB-8DCF9EC8A111}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="350"/>
+													<Property Name="Min" Type="Real64" Value="-275"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="muerte sonido" ID="{9F93A237-C874-4999-B950-C76B1723DD42}" ShortID="491284879">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BD49A67D-079A-4AA0-886B-C8DE58F05C83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="450"/>
+															<Property Name="Min" Type="Real64" Value="-625"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="muerte sonido" ID="{D4AA9E02-8C45-4E42-A7AC-4B8B4E3C836D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.78324"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.30473"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.30473"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>muerte sonido.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784952945"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="muerte sonido" ID="{D4AA9E02-8C45-4E42-A7AC-4B8B4E3C836D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="muerte sonido_01" ID="{A461F98C-3B0B-4748-AF9B-B868E443B37C}" ShortID="191915089">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D3AA6B04-4896-42FB-B249-118AA811A389}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="450"/>
+															<Property Name="Min" Type="Real64" Value="-625"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="muerte sonido" ID="{2F53D845-9425-4274-92E7-2FD6EDB40696}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.99574"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.30473"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.10325"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.50858"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>muerte sonido.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428303512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="muerte sonido" ID="{2F53D845-9425-4274-92E7-2FD6EDB40696}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="muerte sonido_02" ID="{88975AB7-3F84-40C2-871A-45E56B04ABEB}" ShortID="489635460">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F469A6BE-2DD8-43FF-BDCC-4CDEC6299167}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="450"/>
+															<Property Name="Min" Type="Real64" Value="-625"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="muerte sonido" ID="{4AFF74DC-6C63-4795-B2B1-CEF43D8250EB}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.78324"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.30473"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.36305"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.81321"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>muerte sonido.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="495587237"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="muerte sonido" ID="{4AFF74DC-6C63-4795-B2B1-CEF43D8250EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="muerte sonido_03" ID="{39187906-56A6-47E1-835C-B953DAF86E60}" ShortID="548336263">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2E1163EE-1E0A-4D43-8BFB-6A27482547CD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="450"/>
+															<Property Name="Min" Type="Real64" Value="-625"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="muerte sonido" ID="{463A21CA-5563-4943-AF78-480747689263}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.78324"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.30473"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.28294"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>muerte sonido.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420879232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="muerte sonido" ID="{463A21CA-5563-4943-AF78-480747689263}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="ax muerte (1)" ID="{5B45CFE7-03CB-441C-B5A4-96EA109F0A2D}" ShortID="193981946">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="30"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="muerte" ID="{634117DA-B998-43D5-8854-17A305301719}" WorkUnitID="{4B618437-4858-4C71-84AE-AF2DED702020}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E9D24B61-D204-4967-9B87-31645FF82DD8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{90122D00-07C0-4821-93C7-713E2597EB51}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ax muerte (1)" ID="{EE219D75-EB76-49D9-A03E-B4C791D1CA43}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.51377"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.25688"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.60098"/>
+										<Property Name="TrimEnd" Type="Real64" Value="27.58379"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ax muerte (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052876366"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ax muerte (1)" ID="{EE219D75-EB76-49D9-A03E-B4C791D1CA43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</PropertyContainer>
 			</ChildrenList>

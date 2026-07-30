@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{28C2D502-8830-A681-8A10-4555E00D015A}",
+    "Hash": "{BACED717-049E-CA80-DDE1-D92D36D480CE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "C0/{C0766ED4-118B-3ABC-02B5-FE75B62B5D0A}.wem"
      },
      {
+      "Id": "226056524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "07/{072C8748-E072-C36A-579B-BABBE594585F}.wem"
+     },
+     {
       "Id": "237738778",
       "Language": "SFX",
       "Streaming": "false",
@@ -126,6 +134,14 @@
       "Location": "Memory",
       "ShortName": "dirt footsteps (1).wav",
       "CachePath": "C7/{C7BB340F-E0CC-2EF5-7CB3-8330333876EB}.wem"
+     },
+     {
+      "Id": "251905020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "A9/{A964E931-1BB0-5CCC-E887-51928A386133}.wem"
      },
      {
       "Id": "280187919",
@@ -158,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "dirt footsteps (1).wav",
       "CachePath": "45/{452D6686-4AF3-6DF3-8C16-AB616DD1C020}.wem"
+     },
+     {
+      "Id": "327474254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "3F/{3F47F6C9-FA38-E8F4-ED91-4861B6346D1B}.wem"
      },
      {
       "Id": "342171902",
@@ -216,6 +240,30 @@
       "CachePath": "76/{7601A308-8687-B9F9-F622-CAFD96518F34}.wem"
      },
      {
+      "Id": "420879232",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "muerte sonido.wav",
+      "CachePath": "D6/{D6B7A5F8-6669-5312-B685-C8B52B7EACBA}.wem"
+     },
+     {
+      "Id": "428303512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "muerte sonido.wav",
+      "CachePath": "6C/{6C295E66-5E90-69FF-8E9A-EA4F451C94DB}.wem"
+     },
+     {
+      "Id": "434602107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "88/{88B2C631-5F84-1D72-B29C-E4E5D181C57A}.wem"
+     },
+     {
       "Id": "444983305",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,12 +288,28 @@
       "CachePath": "E8/{E8F1E0E5-9B4E-B642-3300-28B49904041A}.wem"
      },
      {
+      "Id": "479645003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "E8/{E89A29D7-DBC1-BD9B-6E6A-3170C4775D4F}.wem"
+     },
+     {
       "Id": "494515281",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FOREST FOOTSTEPS.wav",
       "CachePath": "11/{1170D9D7-651F-47C4-F8C2-353645F9365D}.wem"
+     },
+     {
+      "Id": "495587237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "muerte sonido.wav",
+      "CachePath": "70/{7079E167-50FE-FAF7-49C8-B3BFBBAB071B}.wem"
      },
      {
       "Id": "525306088",
@@ -304,6 +368,22 @@
       "CachePath": "97/{978978D9-4F65-0FDF-749D-1146899488E4}.wem"
      },
      {
+      "Id": "595714394",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "DF/{DF67715B-68CF-F182-4688-C16E064BD1CE}.wem"
+     },
+     {
+      "Id": "619296863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "0B/{0B0A5A7E-235E-4BC0-3528-FA6C69F4686C}.wem"
+     },
+     {
       "Id": "620200711",
       "Language": "SFX",
       "Streaming": "false",
@@ -334,6 +414,14 @@
       "Location": "Memory",
       "ShortName": "FOREST AMBIENCE 1.wav",
       "CachePath": "48/{4834A982-AC91-0E72-B2FF-15C71619F0B4}.wem"
+     },
+     {
+      "Id": "669949725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dragon-studio-keyboard-typing-sound-effect-335503.wav",
+      "CachePath": "75/{75338307-937C-D462-B283-C9741C4F4437}.wem"
      },
      {
       "Id": "676325588",
@@ -382,6 +470,14 @@
       "Location": "Memory",
       "ShortName": "dirt footsteps (1).wav",
       "CachePath": "80/{806C1F27-6BB8-57DA-EBFD-3010F23ADE91}.wem"
+     },
+     {
+      "Id": "784952945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "muerte sonido.wav",
+      "CachePath": "E0/{E0B8DD58-39E8-3E06-F6BA-794FF3CCB249}.wem"
      },
      {
       "Id": "795029861",
@@ -552,6 +648,14 @@
       "CachePath": "F2/{F2494D6E-A2C5-9783-7A50-8124DD9E261F}.wem"
      },
      {
+      "Id": "1052876366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ax muerte (1).wav",
+      "CachePath": "32/{32DEB786-107A-DAB5-92C1-D20A9363AB9A}.wem"
+     },
+     {
       "Id": "1071192940",
       "Language": "SFX",
       "Streaming": "false",
@@ -666,7 +770,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\creackwood",
       "GUID": "{9DFD880F-8D1E-438D-A4AB-DA4E75F26009}",
       "Color": "13",
-      "MaxAttenuation": "700",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "162.2208",
       "DurationMax": "162.2208",
@@ -734,6 +838,19 @@
       ]
      },
      {
+      "Id": "1337001608",
+      "Name": "Play_ax_muerte__1_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ax_muerte__1_",
+      "GUID": "{011D9064-3262-4AEE-8F73-9408B6B4E3C1}",
+      "MaxAttenuation": "6000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1052876366"
+       }
+      ]
+     },
+     {
       "Id": "3837915638",
       "Name": "Play_BOTE_MOVE",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_BOTE_MOVE",
@@ -766,6 +883,41 @@
        },
        {
         "Id": "1034488277"
+       }
+      ]
+     },
+     {
+      "Id": "740168818",
+      "Name": "Play_dialog",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_dialog",
+      "GUID": "{32ABC033-C2EB-425A-85D1-3BBEAD2991F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.70513",
+      "DurationMax": "1.12247",
+      "MediaRefs": [
+       {
+        "Id": "226056524"
+       },
+       {
+        "Id": "251905020"
+       },
+       {
+        "Id": "327474254"
+       },
+       {
+        "Id": "434602107"
+       },
+       {
+        "Id": "479645003"
+       },
+       {
+        "Id": "595714394"
+       },
+       {
+        "Id": "619296863"
+       },
+       {
+        "Id": "669949725"
        }
       ]
      },
@@ -945,6 +1097,29 @@
       ]
      },
      {
+      "Id": "725996008",
+      "Name": "Play_muerte",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_muerte",
+      "GUID": "{1223053B-B20F-4A79-89DD-B29FA37C3647}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4518889",
+      "DurationMax": "4.177114",
+      "MediaRefs": [
+       {
+        "Id": "420879232"
+       },
+       {
+        "Id": "428303512"
+       },
+       {
+        "Id": "495587237"
+       },
+       {
+        "Id": "784952945"
+       }
+      ]
+     },
+     {
       "Id": "3740334703",
       "Name": "Play_paginas",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_paginas",
@@ -1021,6 +1196,6 @@
     ]
    }
   ],
-  "FileHash": "{54C41C27-4848-819C-C912-938F29761E1A}"
+  "FileHash": "{70EDD2AE-7986-52A9-8BB4-E364DD90DFC0}"
  }
 }

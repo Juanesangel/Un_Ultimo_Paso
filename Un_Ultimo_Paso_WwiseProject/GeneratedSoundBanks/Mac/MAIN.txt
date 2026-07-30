@@ -2,7 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	207755397	Play_forest			\Default Work Unit\Play_forest	
 	560945065	creackwood			\Default Work Unit\creackwood	
 	636711392	AXINTRO			\Default Work Unit\AXINTRO	
+	725996008	Play_muerte			\Default Work Unit\Play_muerte	
+	740168818	Play_dialog			\Default Work Unit\Play_dialog	
 	862999429	Play_AMBIENCE_CAP_1_ESTUDIO			\Default Work Unit\Play_AMBIENCE_CAP_1_ESTUDIO	
+	1337001608	Play_ax_muerte__1_			\Default Work Unit\Play_ax_muerte__1_	
 	1441005311	CAP1INT			\Default Work Unit\CAP1INT	
 	1673920501	CAP1EXT			\Default Work Unit\CAP1EXT	
 	2364697178	MENUOPTIONS			\Default Work Unit\MENU\MENUOPTIONS	
@@ -37,12 +40,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	162504275	paginas_02	.cache\49\{498AC2DC-90CF-F4D2-6D4D-46519DE99976}.wem		\Containers\Default Work Unit\ACTOR MIXER\paginas\paginas_02		139784
 	164564151	Bruma de Catedrales (Solo Piano Cut) (0	.cache\D0\{D0A9DC83-0165-A9E4-C336-67F3C0532C1B}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0		2208364
 	218572243	WOOD CREACK 1	.cache\C0\{C0766ED4-118B-3ABC-02B5-FE75B62B5D0A}.wem		\Containers\Default Work Unit\ACTOR MIXER\creack house\WOODCREACK\WOOD CREACK 1		84564
+	226056524	dragon-studio-keyboard-typing-sound-effect-335503_06	.cache\07\{072C8748-E072-C36A-579B-BABBE594585F}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_06		135480
 	237738778	HOME AMBIENCE 2_02	.cache\AF\{AF7E2C70-5CE3-1F59-694E-6851C22732CD}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 HOME\SILVIDOS\HOME AMBIENCE 2_02		705036
 	241102968	dirt footsteps (1)_02	.cache\C7\{C7BB340F-E0CC-2EF5-7CB3-8330333876EB}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\DIRT FOOTSTEPS\dirt footsteps (1)_02		205124
+	251905020	dragon-studio-keyboard-typing-sound-effect-335503_01	.cache\A9\{A964E931-1BB0-5CCC-E887-51928A386133}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_01		144372
 	280187919	paginas	.cache\77\{777829C0-6108-57AD-7161-641F9501BB07}.wem		\Containers\Default Work Unit\ACTOR MIXER\paginas\paginas		173484
 	282743666	PASOS AGUA_02	.cache\4F\{4F7AD393-4A66-BB22-6D53-DB9C5B6732A9}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\WATER FOOTSTEPS\PASOS AGUA_02		326252
 	287083828	WOOD FOOTSTEPS	.cache\0E\{0E0EEDE0-EC2F-4AE3-5460-97F2D09F9E7B}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\WOODFOTSTEPS\WOOD FOOTSTEPS		109716
 	296908903	dirt footsteps (1)	.cache\45\{452D6686-4AF3-6DF3-8C16-AB616DD1C020}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\DIRT FOOTSTEPS\dirt footsteps (1)		214944
+	327474254	dragon-studio-keyboard-typing-sound-effect-335503_03	.cache\3F\{3F47F6C9-FA38-E8F4-ED91-4861B6346D1B}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_03		169312
 	342171902	BOTE SOUND_06	.cache\87\{87EBCAED-1A2B-472D-4566-FDE4D1C19308}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND_06		507696
 	356258824	wind (1)	.cache\13\{1301E708-80A4-728E-3D53-624AF43870E6}.wem		\Containers\Default Work Unit\ACTOR MIXER\menu\wind (1)		29853920
 	356911777	AMBIENCE CAP 1 ESTUDIO	.cache\70\{7085C903-F1E9-B462-70BE-F4BB8A3A4029}.wem		\Containers\Default Work Unit\ACTOR MIXER\AMBIENCE CAP 1 ESTUDIO		97821848
@@ -50,10 +56,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	393859458	Bruma de Catedrales (Solo Piano Cut) (0_01	.cache\3C\{3C7645F8-985A-EB32-6A4B-206B0200230C}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0_01		3353428
 	396653334	paginas_04	.cache\3A\{3AD3615D-50AD-07B2-ED55-7B0F20F89A10}.wem		\Containers\Default Work Unit\ACTOR MIXER\paginas\paginas_04		163864
 	407860804	AMBIENCE FOREST 2	.cache\76\{7601A308-8687-B9F9-F622-CAFD96518F34}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\AMBIENCE FOREST 2		34570632
+	420879232	muerte sonido_03	.cache\D6\{D6B7A5F8-6669-5312-B685-C8B52B7EACBA}.wem		\Containers\Default Work Unit\ACTOR MIXER\muerte\muerte sonido_03		476972
+	428303512	muerte sonido_01	.cache\6C\{6C295E66-5E90-69FF-8E9A-EA4F451C94DB}.wem		\Containers\Default Work Unit\ACTOR MIXER\muerte\muerte sonido_01		461920
+	434602107	dragon-studio-keyboard-typing-sound-effect-335503_02	.cache\88\{88B2C631-5F84-1D72-B29C-E4E5D181C57A}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_02		155052
 	444983305	FOREST FOOTSTEPS_02	.cache\57\{57264783-EEE1-6283-944F-9FEF39CED7B4}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\FOREST FOOTSTEPS\FOREST FOOTSTEPS_02		133700
 	457725493	WOOD CREACK 1_02	.cache\56\{5671C92D-3401-62D7-3AA6-9CCFC3CFD4B2}.wem		\Containers\Default Work Unit\ACTOR MIXER\creack house\WOODCREACK\WOOD CREACK 1_02		370752
 	471546301	forest	.cache\E8\{E8F1E0E5-9B4E-B642-3300-28B49904041A}.wem		\Containers\Default Work Unit\ACTOR MIXER\forest		40896952
+	479645003	dragon-studio-keyboard-typing-sound-effect-335503_04	.cache\E8\{E89A29D7-DBC1-BD9B-6E6A-3170C4775D4F}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_04		206708
 	494515281	FOREST FOOTSTEPS_04	.cache\11\{1170D9D7-651F-47C4-F8C2-353645F9365D}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\FOREST FOOTSTEPS\FOREST FOOTSTEPS_04		171376
+	495587237	muerte sonido_02	.cache\70\{7079E167-50FE-FAF7-49C8-B3BFBBAB071B}.wem		\Containers\Default Work Unit\ACTOR MIXER\muerte\muerte sonido_02		470528
 	525306088	BOTE SOUND_01	.cache\1D\{1D092E7E-9008-9BF1-9148-622CB53B4128}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND_01		551208
 	531047724	AMBIENCE CAP 1	.cache\AF\{AFD19985-6CB9-7750-75F2-A6340E02F044}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 HOME\AMBIENCE CAP 1		24516636
 	536272681	concrete ft_01	.cache\5E\{5EA9CB1E-2AD8-B449-793E-143EC7AD7FB0}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\CONCRETE FOOTSTEPS\concrete ft_01		72512
@@ -61,16 +72,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	544161049	BOTE SOUND_05	.cache\D4\{D48A35A7-165B-43C5-4392-C41A65113F40}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND_05		500456
 	559110559	BOTE SOUND_04	.cache\94\{9417BC97-FCBD-0EF4-89CF-97BBE81FBABA}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND_04		601968
 	581414041	HOME AMBIENCE 1	.cache\97\{978978D9-4F65-0FDF-749D-1146899488E4}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 HOME\SILVIDOS\HOME AMBIENCE 1		1377472
+	595714394	dragon-studio-keyboard-typing-sound-effect-335503	.cache\DF\{DF67715B-68CF-F182-4688-C16E064BD1CE}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503		172836
+	619296863	dragon-studio-keyboard-typing-sound-effect-335503_07	.cache\0B\{0B0A5A7E-235E-4BC0-3528-FA6C69F4686C}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_07		215612
 	620200711	BOTE SOUND_02	.cache\6C\{6C368D02-74D5-7007-C839-43C4959680E1}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND_02		536688
 	625087225	dirt footsteps (1)_03	.cache\81\{815555DA-1443-E931-8C34-8060C9B5205F}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\DIRT FOOTSTEPS\dirt footsteps (1)_03		205124
 	625432089	Bruma de Catedrales (Solo Piano Cut) (0_05	.cache\49\{49A16C1E-D0F8-70BE-A3C7-6D366C508EE8}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0_05		12595612
 	641209218	FOREST AMBIENCE 1	.cache\48\{4834A982-AC91-0E72-B2FF-15C71619F0B4}.wem		\Containers\Default Work Unit\ACTOR MIXER\menu\FOREST AMBIENCE 1		113865848
+	669949725	dragon-studio-keyboard-typing-sound-effect-335503_05	.cache\75\{75338307-937C-D462-B283-C9741C4F4437}.wem		\Containers\Default Work Unit\ACTOR MIXER\dialog\dragon-studio-keyboard-typing-sound-effect-335503_05		147940
 	676325588	WOOD CREACK 1_01	.cache\81\{81950638-03F7-AA93-19FD-FBB3607E5E60}.wem		\Containers\Default Work Unit\ACTOR MIXER\creack house\WOODCREACK\WOOD CREACK 1_01		124600
 	699157144	HOME AMBIENCE 2	.cache\C6\{C60ED690-BE18-40A4-603A-D721D79D3F4F}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 HOME\SILVIDOS\HOME AMBIENCE 2		707136
 	706928701	Bruma de Catedrales (Solo Piano Cut) (0_04	.cache\4A\{4AA3B3D1-9FA6-3E77-10C1-9E8F0C2C42C0}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0_04		5152780
 	715185567	concrete ft	.cache\F2\{F26A443A-606B-ADE7-E3AA-D881B7D9162D}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\CONCRETE FOOTSTEPS\concrete ft		61148
 	732420709	PASOS AGUA	.cache\15\{153D2A00-D299-FC63-AB1D-C0F662423129}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\WATER FOOTSTEPS\PASOS AGUA		202540
 	774971222	dirt footsteps (1)_04	.cache\80\{806C1F27-6BB8-57DA-EBFD-3010F23ADE91}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\DIRT FOOTSTEPS\dirt footsteps (1)_04		205120
+	784952945	muerte sonido	.cache\E0\{E0B8DD58-39E8-3E06-F6BA-794FF3CCB249}.wem		\Containers\Default Work Unit\ACTOR MIXER\muerte\muerte sonido		442604
 	795029861	Bruma de Catedrales (Solo Piano Cut) (0_02	.cache\F0\{F0A0C484-90DD-0F1B-A1B5-E7F614C3B1EA}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0_02		4416692
 	834949728	WOOD FOOTSTEPS_03	.cache\D6\{D61BF765-DAAA-15D5-096F-3FAF34A34923}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\WOODFOTSTEPS\WOOD FOOTSTEPS_03		140544
 	836516116	AMBIENCE INTRO	.cache\FF\{FF3C985B-5856-DA12-BAA1-A5957F45C37D}.wem		\Containers\Default Work Unit\ACTOR MIXER\AMBIENCE INTRO		29939984
@@ -92,5 +107,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1017975414	FOREST FOOTSTEPS_01	.cache\65\{65E71150-1B1E-34DB-B772-8D8B099E570F}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\FOREST FOOTSTEPS\FOREST FOOTSTEPS_01		154252
 	1034488277	BOTE SOUND	.cache\5E\{5E5F7C4A-94F2-BB1C-0525-D4F3593B3AAB}.wem		\Containers\Default Work Unit\ACTOR MIXER\BOTE MOVE\BOTE SOUND		522180
 	1040225677	Bruma de Catedrales (Solo Piano Cut) (0_03	.cache\F2\{F2494D6E-A2C5-9783-7A50-8124DD9E261F}.wem		\Containers\Default Work Unit\ACTOR MIXER\AX CAP 1 EXT\MUSIC CAP 1\Bruma de Catedrales (Solo Piano Cut) (0_03		4825636
+	1052876366	ax muerte (1)	.cache\32\{32DEB786-107A-DAB5-92C1-D20A9363AB9A}.wem		\Containers\Default Work Unit\ACTOR MIXER\ax muerte (1)		4796796
 	1071192940	WOOD FOOTSTEPS_02	.cache\07\{07465F92-63AA-F0F9-BF42-395687F4FB2D}.wem		\Containers\Default Work Unit\ACTOR MIXER\FOOTSTEPS\WOODFOTSTEPS\WOOD FOOTSTEPS_02		130268
 
