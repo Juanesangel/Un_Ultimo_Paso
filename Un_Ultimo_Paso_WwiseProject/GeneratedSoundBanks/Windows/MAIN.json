@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4978BA08-E6F4-497C-9C40-4B8342B69C42}",
     "Language": "SFX",
-    "Hash": "{91B46E85-8FDD-70DD-3BD1-4ADD70D04AF3}",
+    "Hash": "{28C2D502-8830-A681-8A10-4555E00D015A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -88,6 +88,14 @@
       "CachePath": "3C/{3C8F7728-6EEC-F8A6-8575-BA2EE89EABD7}.wem"
      },
      {
+      "Id": "162504275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "paginas.wav",
+      "CachePath": "49/{498AC2DC-90CF-F4D2-6D4D-46519DE99976}.wem"
+     },
+     {
       "Id": "164564151",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,6 +126,14 @@
       "Location": "Memory",
       "ShortName": "dirt footsteps (1).wav",
       "CachePath": "C7/{C7BB340F-E0CC-2EF5-7CB3-8330333876EB}.wem"
+     },
+     {
+      "Id": "280187919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "paginas.wav",
+      "CachePath": "77/{777829C0-6108-57AD-7161-641F9501BB07}.wem"
      },
      {
       "Id": "282743666",
@@ -182,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "Bruma de Catedrales (Solo Piano Cut) (0.49x).wav",
       "CachePath": "3C/{3C7645F8-985A-EB32-6A4B-206B0200230C}.wem"
+     },
+     {
+      "Id": "396653334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "paginas.wav",
+      "CachePath": "3A/{3AD3615D-50AD-07B2-ED55-7B0F20F89A10}.wem"
      },
      {
       "Id": "407860804",
@@ -456,6 +480,14 @@
       "CachePath": "FD/{FDE0FBCE-2802-2B48-82A7-B03EA7E860DA}.wem"
      },
      {
+      "Id": "908650172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "freesound_community-wood-door-open-and-close-26650.wav",
+      "CachePath": "07/{07380116-FAE9-4D32-86C1-BF12C7BC65C0}.wem"
+     },
+     {
       "Id": "930282384",
       "Language": "SFX",
       "Streaming": "false",
@@ -470,6 +502,14 @@
       "Location": "Memory",
       "ShortName": "concrete ft.wav",
       "CachePath": "D2/{D2423018-7C77-8ACB-6CD5-127A4BD3598B}.wem"
+     },
+     {
+      "Id": "957481564",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "paginas.wav",
+      "CachePath": "F2/{F2CE8AD3-203C-08B8-95B0-0E2ECDF4370D}.wem"
      },
      {
       "Id": "979638804",
@@ -628,8 +668,8 @@
       "Color": "13",
       "MaxAttenuation": "700",
       "DurationType": "OneShot",
-      "DurationMin": "181.2208",
-      "DurationMax": "181.2208",
+      "DurationMin": "162.2208",
+      "DurationMax": "162.2208",
       "MediaRefs": [
        {
         "Id": "218572243"
@@ -698,7 +738,7 @@
       "Name": "Play_BOTE_MOVE",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_BOTE_MOVE",
       "GUID": "{D0EFB07B-5CBE-449B-98E3-9676F91C5DD8}",
-      "MaxAttenuation": "0.25",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "64.02122",
       "DurationMax": "71.692955",
@@ -880,13 +920,50 @@
       "Name": "Play_forest",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_forest",
       "GUID": "{5BB5A428-CBAB-48A8-BAB2-B85B27CC3A2E}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "14000",
       "DurationType": "OneShot",
       "DurationMin": "213.00446",
       "DurationMax": "213.00446",
       "MediaRefs": [
        {
         "Id": "471546301"
+       }
+      ]
+     },
+     {
+      "Id": "3660170348",
+      "Name": "Play_freesound_community_wood_door_open_and_close_26650",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_freesound_community_wood_door_open_and_close_26650",
+      "GUID": "{510C085D-4FF8-4EDD-A06B-288DB1E90D54}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72664",
+      "DurationMax": "0.72664",
+      "MediaRefs": [
+       {
+        "Id": "908650172"
+       }
+      ]
+     },
+     {
+      "Id": "3740334703",
+      "Name": "Play_paginas",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_paginas",
+      "GUID": "{AEDB8F2B-3F67-4B2F-860F-4D11345AC831}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72753",
+      "DurationMax": "1.22924",
+      "MediaRefs": [
+       {
+        "Id": "162504275"
+       },
+       {
+        "Id": "280187919"
+       },
+       {
+        "Id": "396653334"
+       },
+       {
+        "Id": "957481564"
        }
       ]
      },
@@ -944,6 +1021,6 @@
     ]
    }
   ],
-  "FileHash": "{D119A705-092F-13EE-9337-1DE103ADE2E4}"
+  "FileHash": "{975ECC94-4184-9767-E8BD-5846A978D615}"
  }
 }

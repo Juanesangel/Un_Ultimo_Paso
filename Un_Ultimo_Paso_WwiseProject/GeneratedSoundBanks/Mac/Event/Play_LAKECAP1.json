@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B62D88EA-211C-4C84-8DF2-21F33BDC8D49}",
     "Language": "SFX",
-    "Hash": "{6E55D3F7-8F07-0342-CA4B-3B1061DA5F10}",
+    "Hash": "{2A6A01D7-0CCB-8A71-CD67-14B1FDE4D0C7}",
     "ObjectPath": "Play_LAKECAP1",
     "ShortName": "Play_LAKECAP1",
     "Path": "Event/Play_LAKECAP1.bnk",
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{C1C645CD-1F34-2853-2CF9-5CAD8339DDEE}"
+  "FileHash": "{DC9FA369-34AE-D39B-2F2D-8318B27561B7}"
  }
 }
