@@ -16,17 +16,23 @@ AProtagonista::AProtagonista()
 	PrimaryActorTick.bCanEverTick = true;
 
 	// --- Cámara ---
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->TargetArmLength = 0.f;
-	SpringArm->bUsePawnControlRotation = false;
-
+    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+    SpringArm->SetupAttachment(RootComponent);
+    SpringArm->TargetArmLength = 400.f;              // 0 pone la cámara pegada al pivote, sin distancia
+    SpringArm->bUsePawnControlRotation = false;
+    SpringArm->bDoCollisionTest = false;              // evita que la cámara "atraviese" al personaje
     SpringArm->SetUsingAbsoluteRotation(true);
-    SpringArm->SetRelativeRotation(FRotator(0.f, 0.f, 0.f)); // ajusta el ángulo que quieras
+    SpringArm->SetRelativeRotation(FRotator(-45.f, 0.f, 0.f)); // el ángulo de picado, 0,0,0 deja la cámara mirando al horizonte
     SpringArm->bInheritPitch = false;
     SpringArm->bInheritYaw = false;
     SpringArm->bInheritRoll = false;
 
+    // --- Rotación orientada al movimiento ---
+    bUseControllerRotationYaw = false;
+    bUseControllerRotationPitch = false;
+    bUseControllerRotationRoll = false;
+    GetCharacterMovement()->bOrientRotationToMovement = true;
+    GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f); // 0,0,0 hace que el personaje NUNCA gire
     // --- Rotación orientada al movimiento ---
     bUseControllerRotationYaw = false;
     bUseControllerRotationPitch = false;
